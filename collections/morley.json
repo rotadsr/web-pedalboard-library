@@ -1,0 +1,6 @@
+{
+  "brand": "Morley",
+  "pedals": {
+    "morleyaby": { "name": "ABY", "cat": "Routing", "inst": "guitar", "color": "#383838", "knobs": [] }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "brand": "Aguilar",
+  "pedals": {
+    "tlccomp": { "name": "TLC Compressor", "cat": "Bass", "inst": "bass", "color": "#080828", "knobs": [{"id":"level","label":"Level","def":0.5},{"id":"attack","label":"Attack","def":0.3},{"id":"release","label":"Release","def":0.3},{"id":"thresh","label":"Threshold","def":0.5},{"id":"ratio","label":"Ratio","def":0.5}] }
+  }
+}

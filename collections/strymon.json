@@ -1,0 +1,2065 @@
+{
+  "brand": "Strymon",
+  "pedals": {
+    "elcap": {
+      "name": "El Capistan",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#3c2208",
+      "knobs": [
+        {
+          "id": "time",
+          "label": "Time",
+          "def": 0.4
+        },
+        {
+          "id": "age",
+          "label": "Tape Age",
+          "def": 0.3
+        },
+        {
+          "id": "mix",
+          "label": "Mix",
+          "def": 0.3
+        },
+        {
+          "id": "rpt",
+          "label": "Repeats",
+          "def": 0.3
+        },
+        {
+          "id": "wow",
+          "label": "Wow/Flutter",
+          "def": 0.1
+        },
+        {
+          "id": "room",
+          "label": "Room",
+          "def": 0
+        }
+      ],
+      "knobRows": [
+        [
+          "time",
+          "age",
+          "mix"
+        ],
+        [
+          "rpt",
+          "wow",
+          "room"
+        ]
+      ],
+      "layout": {
+        "image": "strymon-el-capistan.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "timeline": {
+      "name": "Timeline",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#081838",
+      "modes": [
+        "Digital",
+        "Analog",
+        "Tape",
+        "Oil Can",
+        "Dynami",
+        "Lofi",
+        "Ice",
+        "Reverse",
+        "Swell",
+        "Pattern",
+        "Filter",
+        "Duck"
+      ],
+      "knobs": [
+        {
+          "id": "time",
+          "label": "Time",
+          "def": 0.4
+        },
+        {
+          "id": "repeats",
+          "label": "Repeats",
+          "def": 0.3
+        },
+        {
+          "id": "mix",
+          "label": "Mix",
+          "def": 0.3
+        },
+        {
+          "id": "speed",
+          "label": "Speed",
+          "def": 0.3
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.2
+        },
+        {
+          "id": "grit",
+          "label": "Grit",
+          "def": 0
+        },
+        {
+          "id": "filter",
+          "label": "Filter",
+          "def": 0.5
+        },
+        {
+          "id": "param1",
+          "label": "Param 1",
+          "def": 0.5
+        },
+        {
+          "id": "param2",
+          "label": "Param 2",
+          "def": 0.5
+        }
+      ],
+      "knobRows": [
+        [
+          "time",
+          "repeats",
+          "mix"
+        ],
+        [
+          "speed",
+          "depth",
+          "grit"
+        ],
+        [
+          "filter",
+          "param1",
+          "param2"
+        ]
+      ],
+      "switches": [
+        {
+          "id": "looper",
+          "label": "Looper",
+          "type": "fs",
+          "def": false
+        }
+      ],
+      "layout": {
+        "image": "strymon-timeline.png",
+        "controls": {}
+      }
+    },
+    "volante": {
+      "name": "Volante",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#1c2008",
+      "modes": [
+        "Drum Echo",
+        "Tape Echo",
+        "Studio Echo"
+      ],
+      "knobs": [
+        {
+          "id": "wowflt",
+          "label": "Wow/Flt",
+          "def": 0.2
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.2
+        },
+        {
+          "id": "mix",
+          "label": "Mix",
+          "def": 0.3
+        },
+        {
+          "id": "repeats",
+          "label": "Repeats",
+          "def": 0.3
+        },
+        {
+          "id": "space",
+          "label": "Space",
+          "def": 0.3
+        },
+        {
+          "id": "speed",
+          "label": "Speed",
+          "def": 0.3
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.2
+        }
+      ],
+      "knobRows": [
+        [
+          "wowflt",
+          "tone",
+          "drive",
+          "mix"
+        ],
+        [
+          "repeats",
+          "space",
+          "speed",
+          "depth"
+        ]
+      ],
+      "switches": [
+        {
+          "id": "rec",
+          "label": "Record",
+          "type": "fs",
+          "def": false
+        },
+        {
+          "id": "play",
+          "label": "Play",
+          "type": "fs",
+          "def": false
+        }
+      ],
+      "layout": {
+        "image": "strymon-volante.png",
+        "controls": {
+          "mechanics": {
+            "x": 0.254,
+            "y": 0.162,
+            "label": "MECHANICS",
+            "knobSize": 0.15
+          },
+          "rec_level": {
+            "x": 0.093,
+            "y": 0.162,
+            "label": "REC LEVEL",
+            "knobSize": 0.15
+          },
+          "time": {
+            "x": 0.5,
+            "y": 0.159,
+            "label": "TIME",
+            "knobSize": 0.15
+          },
+          "repeats": {
+            "x": 0.748,
+            "y": 0.159,
+            "label": "REPEATS",
+            "knobSize": 0.15
+          },
+          "echo_level": {
+            "x": 0.907,
+            "y": 0.164,
+            "label": "ECHO LEVEL",
+            "knobSize": 0.15
+          },
+          "spring": {
+            "x": 0.909,
+            "y": 0.393,
+            "label": "SPRING",
+            "knobSize": 0.15
+          },
+          "spacing": {
+            "x": 0.749,
+            "y": 0.396,
+            "label": "SPACING",
+            "knobSize": 0.15
+          },
+          "wear": {
+            "x": 0.251,
+            "y": 0.396,
+            "label": "WEAR",
+            "knobSize": 0.15
+          },
+          "low_cut": {
+            "x": 0.087,
+            "y": 0.391,
+            "label": "LOW CUT",
+            "knobSize": 0.15
+          },
+          "on": {
+            "x": 0.108,
+            "y": 0.815,
+            "type": "fs",
+            "label": "ON"
+          },
+          "favorite": {
+            "x": 0.498,
+            "y": 0.808,
+            "type": "fs",
+            "label": "FAVORITE"
+          },
+          "tap": {
+            "x": 0.894,
+            "y": 0.806,
+            "type": "fs",
+            "label": "TAP"
+          },
+          "type": {
+            "x": 0.406,
+            "y": 0.174,
+            "type": "cycle",
+            "label": "TYPE",
+            "opts": [
+              "drum",
+              "tape",
+              "studio"
+            ],
+            "positions": 3,
+            "orientation": "v"
+          },
+          "in_l": {
+            "x": 0.853,
+            "y": 0.007,
+            "type": "port-in",
+            "label": "Input L"
+          },
+          "in_r": {
+            "x": 0.745,
+            "y": 0.007,
+            "type": "port-in",
+            "label": "Input R"
+          },
+          "out_l": {
+            "x": 0.637,
+            "y": 0.003,
+            "type": "port-out",
+            "label": "Output L"
+          },
+          "out_r": {
+            "x": 0.529,
+            "y": 0.007,
+            "type": "port-out",
+            "label": "Output_R"
+          },
+          "speed": {
+            "x": 0.599,
+            "y": 0.166,
+            "type": "cycle",
+            "label": "SPEED",
+            "opts": [
+              "half",
+              "normal",
+              "double"
+            ],
+            "positions": 3,
+            "orientation": "v"
+          }
+        },
+        "widthMm": 177,
+        "heightMm": 114
+      }
+    },
+    "brig": {
+      "name": "Brig",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#3a2810",
+      "knobs": [
+        {
+          "id": "filter",
+          "label": "Filter",
+          "def": 0.5
+        },
+        {
+          "id": "mod",
+          "label": "Mod",
+          "def": 0
+        },
+        {
+          "id": "time",
+          "label": "Time",
+          "def": 0.4
+        },
+        {
+          "id": "repeats",
+          "label": "Repeats",
+          "def": 0.3
+        },
+        {
+          "id": "mix",
+          "label": "Mix",
+          "def": 0.4
+        }
+      ],
+      "switches": [
+        {
+          "id": "voice",
+          "label": "Voice",
+          "type": "cycle",
+          "opts": [
+            "Short",
+            "Med",
+            "Long"
+          ],
+          "def": "Med"
+        }
+      ],
+      "layout": {
+        "image": "strymon-brig.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "dig": {
+      "name": "DIG",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#12121a",
+      "knobs": [
+        {
+          "id": "mix1",
+          "label": "Mix 1",
+          "def": 0.4
+        },
+        {
+          "id": "repeats",
+          "label": "Repeats",
+          "def": 0.3
+        },
+        {
+          "id": "time1",
+          "label": "Time 1",
+          "def": 0.4
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "mix2",
+          "label": "Mix 2",
+          "def": 0.4
+        },
+        {
+          "id": "subdiv",
+          "label": "Subdiv",
+          "def": 0.5
+        }
+      ],
+      "knobRows": [
+        [
+          "mix1",
+          "repeats",
+          "time1"
+        ],
+        [
+          "tone",
+          "mix2",
+          "subdiv"
+        ]
+      ],
+      "switches": [
+        {
+          "id": "voice",
+          "label": "Voice",
+          "type": "cycle",
+          "opts": [
+            "24/96",
+            "ADM",
+            "12-bit"
+          ],
+          "def": "24/96"
+        },
+        {
+          "id": "mod",
+          "label": "Mod",
+          "type": "cycle",
+          "opts": [
+            "off",
+            "Light",
+            "Deep"
+          ],
+          "def": "off"
+        }
+      ],
+      "layout": {
+        "image": "strymon-dig.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "olivera": {
+      "name": "Olívera",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#1a1008",
+      "knobs": [
+        {
+          "id": "time",
+          "label": "Time",
+          "def": 0.4
+        },
+        {
+          "id": "mix",
+          "label": "Mix",
+          "def": 0.4
+        },
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.2
+        },
+        {
+          "id": "regen",
+          "label": "Regen",
+          "def": 0.3
+        }
+      ],
+      "switches": [
+        {
+          "id": "heads",
+          "label": "Heads",
+          "type": "cycle",
+          "opts": [
+            "Short",
+            "Long",
+            "Both"
+          ],
+          "def": "Both"
+        }
+      ],
+      "layout": {
+        "image": "strymon-olivera.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "bigsky": {
+      "name": "BigSky",
+      "cat": "Reverb",
+      "inst": "guitar",
+      "color": "#083060",
+      "cardWidth": 260,
+      "modes": [
+        "Room",
+        "Hall",
+        "Plate",
+        "Spring",
+        "Swell",
+        "Bloom",
+        "Cloud",
+        "Chorale",
+        "Shimmer",
+        "Magneto",
+        "NodeVerb",
+        "Reflections"
+      ],
+      "knobs": [
+        {
+          "id": "mix",
+          "label": "Mix",
+          "def": 0.3
+        },
+        {
+          "id": "decay",
+          "label": "Decay",
+          "def": 0.4
+        },
+        {
+          "id": "predelay",
+          "label": "Pre-Delay",
+          "def": 0
+        },
+        {
+          "id": "mod",
+          "label": "Mod",
+          "def": 0.2
+        },
+        {
+          "id": "lo",
+          "label": "Lo",
+          "def": 0.5
+        },
+        {
+          "id": "hi",
+          "label": "Hi",
+          "def": 0.5
+        },
+        {
+          "id": "param1",
+          "label": "Param 1",
+          "def": 0.5
+        },
+        {
+          "id": "param2",
+          "label": "Param 2",
+          "def": 0.5
+        },
+        {
+          "id": "value",
+          "label": "Value",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        }
+      ],
+      "knobRows": [
+        [
+          "mix",
+          "decay",
+          "predelay",
+          "mod"
+        ],
+        [
+          "lo",
+          "hi",
+          "param1",
+          "param2"
+        ]
+      ],
+      "switches": [
+        {
+          "id": "infinite",
+          "label": "Infinite",
+          "type": "fs",
+          "def": false
+        },
+        {
+          "id": "a",
+          "label": "A",
+          "type": "fs",
+          "def": false
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "type": "fs",
+          "def": false
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "type": "fs",
+          "def": false
+        },
+        {
+          "id": "menu",
+          "label": "Type",
+          "type": "cycle",
+          "opts": [
+            "Room",
+            "Hall",
+            "Plate",
+            "Spring",
+            "Swell",
+            "Bloom",
+            "Cloud",
+            "Chorale",
+            "Shimmer",
+            "Magneto",
+            "NodeVerb",
+            "Reflections"
+          ],
+          "def": "Room"
+        }
+      ],
+      "layout": {
+        "image": "strymon-bigsky.png",
+        "controls": {
+          "mix": {
+            "x": 0.846,
+            "y": 0.151,
+            "label": "mix"
+          },
+          "decay": {
+            "x": 0.585,
+            "y": 0.155,
+            "label": "decay"
+          },
+          "param1": {
+            "x": 0.652,
+            "y": 0.379,
+            "label": "param1"
+          },
+          "param2": {
+            "x": 0.78,
+            "y": 0.385,
+            "label": "param2"
+          },
+          "mod": {
+            "x": 0.91,
+            "y": 0.383,
+            "label": "mod"
+          },
+          "predelay": {
+            "x": 0.713,
+            "y": 0.155,
+            "label": "predelay"
+          },
+          "tone": {
+            "x": 0.517,
+            "y": 0.385,
+            "label": "tone"
+          },
+          "value": {
+            "x": 0.425,
+            "y": 0.155,
+            "label": "value"
+          },
+          "a": {
+            "x": 0.121,
+            "y": 0.766,
+            "label": "a"
+          },
+          "b": {
+            "x": 0.505,
+            "y": 0.759,
+            "label": "b"
+          },
+          "c": {
+            "x": 0.867,
+            "y": 0.755,
+            "label": "c"
+          },
+          "menu": {
+            "x": 0.197,
+            "y": 0.383,
+            "label": "menu"
+          },
+          "in_l": {
+            "x": 0.866,
+            "y": 0.026,
+            "label": "In L",
+            "type": "port-in"
+          },
+          "in_r": {
+            "x": 0.764,
+            "y": 0.028,
+            "label": "In R",
+            "type": "port-in"
+          },
+          "out_l": {
+            "x": 0.654,
+            "y": 0.031,
+            "label": "Out L",
+            "type": "port-out"
+          },
+          "out_r": {
+            "x": 0.547,
+            "y": 0.031,
+            "label": "Out R",
+            "type": "port-out"
+          }
+        },
+        "widthMm": 112,
+        "heightMm": 125,
+        "removeWhiteBg": true
+      }
+    },
+    "bluesky": {
+      "name": "blueSky",
+      "cat": "Reverb",
+      "inst": "guitar",
+      "color": "#0a1028",
+      "knobs": [
+        {
+          "id": "low",
+          "label": "Low",
+          "def": 0.5
+        },
+        {
+          "id": "shimmer",
+          "label": "Shimmer",
+          "def": 0
+        },
+        {
+          "id": "predelay",
+          "label": "Pre-Delay",
+          "def": 0.1
+        },
+        {
+          "id": "high",
+          "label": "High",
+          "def": 0.7
+        },
+        {
+          "id": "decay",
+          "label": "Decay",
+          "def": 0.5
+        },
+        {
+          "id": "mix",
+          "label": "Mix",
+          "def": 0.4
+        }
+      ],
+      "knobRows": [
+        [
+          "low",
+          "shimmer",
+          "predelay"
+        ],
+        [
+          "high",
+          "decay",
+          "mix"
+        ]
+      ],
+      "switches": [
+        {
+          "id": "mod",
+          "label": "Mod",
+          "type": "cycle",
+          "opts": [
+            "off",
+            "Light",
+            "Deep"
+          ],
+          "def": "off"
+        },
+        {
+          "id": "type",
+          "label": "Type",
+          "type": "cycle",
+          "opts": [
+            "Plate",
+            "Room",
+            "Spring"
+          ],
+          "def": "Plate"
+        }
+      ],
+      "layout": {
+        "image": "strymon-bluesky.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "cloudburst": {
+      "name": "Cloudburst",
+      "cat": "Reverb",
+      "inst": "guitar",
+      "color": "#182028",
+      "knobs": [
+        {
+          "id": "predelay",
+          "label": "Pre-Delay",
+          "def": 0.1
+        },
+        {
+          "id": "mod",
+          "label": "Mod",
+          "def": 0.2
+        },
+        {
+          "id": "decay",
+          "label": "Decay",
+          "def": 0.5
+        },
+        {
+          "id": "mix",
+          "label": "Mix",
+          "def": 0.4
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.6
+        }
+      ],
+      "switches": [
+        {
+          "id": "ensemble",
+          "label": "Ensemble",
+          "type": "cycle",
+          "opts": [
+            "off",
+            "mp",
+            "forte"
+          ],
+          "def": "off"
+        }
+      ],
+      "layout": {
+        "image": "strymon-cloudburst.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "nightsky": {
+      "name": "NightSky",
+      "cat": "Reverb",
+      "inst": "guitar",
+      "color": "#06060a",
+      "knobs": [
+        {
+          "id": "speed",
+          "label": "Speed",
+          "def": 0.3
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.3
+        },
+        {
+          "id": "length",
+          "label": "Length",
+          "def": 0.5
+        },
+        {
+          "id": "sizepitch",
+          "label": "Size/Pitch",
+          "def": 0.5
+        },
+        {
+          "id": "reverb",
+          "label": "Reverb",
+          "def": 0.5
+        },
+        {
+          "id": "shimmer",
+          "label": "Shimmer",
+          "def": 0
+        },
+        {
+          "id": "lowcut",
+          "label": "Low Cut",
+          "def": 0
+        },
+        {
+          "id": "highcut",
+          "label": "High Cut",
+          "def": 0.7
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0
+        }
+      ],
+      "knobRows": [
+        [
+          "speed",
+          "depth",
+          "length"
+        ],
+        [
+          "sizepitch",
+          "reverb",
+          "shimmer"
+        ],
+        [
+          "lowcut",
+          "highcut",
+          "drive"
+        ]
+      ],
+      "switches": [
+        {
+          "id": "target",
+          "label": "Target",
+          "type": "cycle",
+          "opts": [
+            "Verb",
+            "Pitch",
+            "Filter"
+          ],
+          "def": "Verb"
+        },
+        {
+          "id": "texture",
+          "label": "Texture",
+          "type": "cycle",
+          "opts": [
+            "Sparse",
+            "Dense",
+            "Diffuse"
+          ],
+          "def": "Dense"
+        },
+        {
+          "id": "shape",
+          "label": "Shape",
+          "type": "cycle",
+          "opts": [
+            "Tri",
+            "Sq",
+            "Ramp",
+            "Saw",
+            "Rand",
+            "Env"
+          ],
+          "def": "Tri"
+        },
+        {
+          "id": "quantize",
+          "label": "Quantize",
+          "type": "cycle",
+          "opts": [
+            "Smooth",
+            "½ Step",
+            "Scale"
+          ],
+          "def": "Smooth"
+        },
+        {
+          "id": "filter",
+          "label": "Filter",
+          "type": "toggle",
+          "opts": [
+            "Regen",
+            "Low Pass"
+          ],
+          "def": "Regen"
+        },
+        {
+          "id": "glimmer",
+          "label": "Glimmer",
+          "type": "cycle",
+          "opts": [
+            "off",
+            "High",
+            "Low"
+          ],
+          "def": "off"
+        }
+      ],
+      "switchJustify": "space-between",
+      "layout": {
+        "image": "strymon-nightsky.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "bigskymx": {
+      "name": "BigSky MX",
+      "cat": "Reverb",
+      "inst": "guitar",
+      "color": "#080c14",
+      "modes": [
+        {
+          "group": "Real Spaces",
+          "opts": [
+            "Cloud",
+            "Room",
+            "Hall",
+            "Chamber",
+            "Plate",
+            "Spring"
+          ]
+        },
+        {
+          "group": "Creative",
+          "opts": [
+            "Shimmer",
+            "Bloom",
+            "Chorale",
+            "Magneto",
+            "Nonlinear",
+            "Impulse"
+          ]
+        }
+      ],
+      "knobs": [
+        {
+          "id": "mix",
+          "label": "Mix",
+          "def": 0.4
+        },
+        {
+          "id": "decay",
+          "label": "Decay",
+          "def": 0.5
+        },
+        {
+          "id": "predelay",
+          "label": "Pre-Delay",
+          "def": 0.1
+        },
+        {
+          "id": "param1",
+          "label": "Param 1",
+          "def": 0.5
+        },
+        {
+          "id": "param2",
+          "label": "Param 2",
+          "def": 0.5
+        },
+        {
+          "id": "param3",
+          "label": "Param 3",
+          "def": 0.5
+        }
+      ],
+      "knobRows": [
+        [
+          "mix",
+          "decay",
+          "predelay"
+        ],
+        [
+          "param1",
+          "param2",
+          "param3"
+        ]
+      ],
+      "layout": {
+        "image": "strymon-bigsky-mx.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "deco": {
+      "name": "Deco",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#3c2e10",
+      "cardWidth": 120,
+      "knobs": [
+        {
+          "id": "sat",
+          "label": "Tape Sat",
+          "def": 0.4
+        },
+        {
+          "id": "flutter",
+          "label": "Flutter",
+          "def": 0.2
+        },
+        {
+          "id": "lagrate",
+          "label": "Lag Rate",
+          "def": 0.3
+        },
+        {
+          "id": "fldepth",
+          "label": "Flange Depth",
+          "def": 0
+        },
+        {
+          "id": "wobble",
+          "label": "Wobble",
+          "def": 0.2
+        },
+        {
+          "id": "blend",
+          "label": "Wet/Dry",
+          "def": 0.5
+        }
+      ],
+      "knobRows": [
+        {
+          "ids": [
+            "sat",
+            "lagrate"
+          ],
+          "justify": "space-between"
+        },
+        {
+          "ids": [
+            "flutter",
+            "fldepth"
+          ],
+          "justify": "center",
+          "gap": "12px"
+        },
+        {
+          "ids": [
+            "wobble",
+            "blend"
+          ],
+          "justify": "space-between"
+        }
+      ],
+      "switchJustify": "space-between",
+      "switches": [
+        {
+          "id": "satByp",
+          "label": "Tape Sat",
+          "type": "fs",
+          "def": true
+        },
+        {
+          "id": "dblByp",
+          "label": "Dbl Track",
+          "type": "fs",
+          "def": true
+        }
+      ],
+      "layout": {
+        "image": "strymon-deco.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "flint": {
+      "name": "Flint",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#202020",
+      "knobs": [
+        {
+          "id": "decay",
+          "label": "Decay",
+          "def": 0.5
+        },
+        {
+          "id": "speed",
+          "label": "Speed",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.6
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.6
+        },
+        {
+          "id": "mix",
+          "label": "Mix",
+          "def": 0.4
+        }
+      ],
+      "knobRows": [
+        [
+          "decay",
+          "speed",
+          "tone"
+        ],
+        [
+          "depth",
+          "mix"
+        ]
+      ],
+      "switchJustify": "space-between",
+      "switches": [
+        {
+          "id": "revtype",
+          "label": "Reverb",
+          "type": "cycle",
+          "opts": [
+            "'60s",
+            "'70s",
+            "'80s"
+          ],
+          "def": "'60s"
+        },
+        {
+          "id": "tremtype",
+          "label": "Tremolo",
+          "type": "cycle",
+          "opts": [
+            "'61",
+            "'63",
+            "'65"
+          ],
+          "def": "'65"
+        },
+        {
+          "id": "tremfs",
+          "label": "Trem",
+          "type": "fs",
+          "def": true
+        },
+        {
+          "id": "revfs",
+          "label": "Verb",
+          "type": "fs",
+          "def": true
+        }
+      ],
+      "layout": {
+        "image": "strymon-flint.png",
+        "controls": {
+          "mix": {
+            "x": 0.811,
+            "y": 0.205,
+            "label": "Mix"
+          },
+          "intensity": {
+            "x": 0.178,
+            "y": 0.2,
+            "label": "Intensity"
+          },
+          "speed": {
+            "x": 0.273,
+            "y": 0.426,
+            "label": "Speed"
+          },
+          "decay": {
+            "x": 0.5,
+            "y": 0.362,
+            "label": "Decay"
+          },
+          "color": {
+            "x": 0.725,
+            "y": 0.428,
+            "label": "Color"
+          },
+          "reverb": {
+            "x": 0.568,
+            "y": 0.198,
+            "type": "cycle",
+            "label": "Reverb",
+            "opts": [
+              "'60s",
+              "'70s",
+              "'80s"
+            ],
+            "orientation": "v"
+          },
+          "tremolo": {
+            "x": 0.43,
+            "y": 0.2,
+            "type": "cycle",
+            "label": "Tremolo",
+            "opts": [
+              "'61",
+              "'63",
+              "'65"
+            ],
+            "orientation": "v"
+          },
+          "in": {
+            "x": 0.637,
+            "y": 0.028,
+            "type": "port-in",
+            "label": "Input"
+          },
+          "out": {
+            "x": 0.3,
+            "y": 0.033,
+            "type": "port-out",
+            "label": "Output"
+          },
+          "reverb_on": {
+            "x": 0.786,
+            "y": 0.776,
+            "type": "fs",
+            "label": "Verb"
+          },
+          "tremolo_on": {
+            "x": 0.212,
+            "y": 0.776,
+            "type": "fs",
+            "label": "Trem"
+          }
+        }
+      }
+    },
+    "lex": {
+      "name": "Lex",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#1c2008",
+      "knobs": [
+        {
+          "id": "hornlevel",
+          "label": "Horn Lvl",
+          "def": 0.7
+        },
+        {
+          "id": "dry",
+          "label": "Dry",
+          "def": 0
+        },
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.5
+        },
+        {
+          "id": "speed",
+          "label": "Speed",
+          "def": 0.4
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.2
+        }
+      ],
+      "switches": [
+        {
+          "id": "ramp",
+          "label": "Ramp",
+          "type": "toggle",
+          "opts": [
+            "Slow",
+            "Fast"
+          ],
+          "def": "Slow"
+        },
+        {
+          "id": "micpos",
+          "label": "Mic Pos",
+          "type": "toggle",
+          "opts": [
+            "Front",
+            "Rear"
+          ],
+          "def": "Front"
+        }
+      ],
+      "layout": {
+        "image": "strymon-lex.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "mobius": {
+      "name": "Möbius",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#080820",
+      "modes": [
+        "Chorus",
+        "Flange",
+        "Rotary",
+        "Phaser",
+        "Filter",
+        "Formant",
+        "Vibe",
+        "Vintage Trem",
+        "Pattern Trem",
+        "Autoswell",
+        "Destroyer",
+        "Quadrature"
+      ],
+      "knobs": [
+        {
+          "id": "speed",
+          "label": "Speed",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "param1",
+          "label": "Param 1",
+          "def": 0.5
+        },
+        {
+          "id": "param2",
+          "label": "Param 2",
+          "def": 0.5
+        }
+      ],
+      "knobRows": [
+        [
+          "speed",
+          "depth",
+          "level"
+        ],
+        [
+          "param1",
+          "param2"
+        ]
+      ],
+      "layout": {
+        "image": "strymon-mobius.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "uv": {
+      "name": "UltraViolet",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#180028",
+      "knobs": [
+        {
+          "id": "speed",
+          "label": "Speed",
+          "def": 0.4
+        },
+        {
+          "id": "intensity",
+          "label": "Intensity",
+          "def": 0.5
+        },
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "bias",
+          "label": "Bias",
+          "type": "cycle",
+          "opts": [
+            "Low",
+            "Mid",
+            "High"
+          ],
+          "def": "Mid"
+        }
+      ],
+      "layout": {
+        "image": "strymon-ultraviolet.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "zelzah": {
+      "name": "Zelzah",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#180818",
+      "knobs": [
+        {
+          "id": "mix",
+          "label": "Mix",
+          "def": 0.5
+        },
+        {
+          "id": "depth6",
+          "label": "Depth 6",
+          "def": 0.5
+        },
+        {
+          "id": "voice",
+          "label": "Voice",
+          "def": 0.5
+        },
+        {
+          "id": "depth4",
+          "label": "Depth 4",
+          "def": 0.5
+        },
+        {
+          "id": "speed4",
+          "label": "Speed 4",
+          "def": 0.4
+        },
+        {
+          "id": "speed6",
+          "label": "Speed 6",
+          "def": 0.4
+        }
+      ],
+      "knobRows": [
+        [
+          "mix",
+          "depth6",
+          "voice"
+        ],
+        [
+          "depth4",
+          "speed4",
+          "speed6"
+        ]
+      ],
+      "switches": [
+        {
+          "id": "regen",
+          "label": "Regen",
+          "type": "cycle",
+          "opts": [
+            "off",
+            "Mild",
+            "Strong"
+          ],
+          "def": "off"
+        },
+        {
+          "id": "sweep",
+          "label": "Sweep",
+          "type": "cycle",
+          "opts": [
+            "Classic",
+            "Barber",
+            "Env"
+          ],
+          "def": "Classic"
+        },
+        {
+          "id": "four",
+          "label": "4-Stage",
+          "type": "fs",
+          "def": true
+        },
+        {
+          "id": "six",
+          "label": "6-Stage",
+          "type": "fs",
+          "def": true
+        }
+      ],
+      "layout": {
+        "image": "strymon-zeelzah.png",
+        "controls": {}
+      }
+    },
+    "canoga": {
+      "name": "Canoga",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#3a2808",
+      "knobs": [
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.5
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.6
+        }
+      ],
+      "layout": {
+        "image": "strymon-canoga.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "fairfax": {
+      "name": "Fairfax",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#1c2210",
+      "knobs": [
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.4
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.6
+        },
+        {
+          "id": "sag",
+          "label": "Sag",
+          "def": 0.2
+        }
+      ],
+      "switches": [
+        {
+          "id": "bright",
+          "label": "Bright",
+          "type": "toggle",
+          "opts": [
+            "off",
+            "on"
+          ],
+          "def": "off"
+        }
+      ],
+      "layout": {
+        "image": "strymon-fairfax.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "riverside": {
+      "name": "Riverside",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#3a2a00",
+      "knobs": [
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.5
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.6
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "middle",
+          "label": "Middle",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.6
+        }
+      ],
+      "switches": [
+        {
+          "id": "gain",
+          "label": "Gain",
+          "type": "toggle",
+          "opts": [
+            "Low",
+            "High"
+          ],
+          "def": "Low"
+        },
+        {
+          "id": "push",
+          "label": "Push",
+          "type": "toggle",
+          "opts": [
+            "Norm",
+            "Mid"
+          ],
+          "def": "Norm"
+        },
+        {
+          "id": "presence",
+          "label": "Presence",
+          "type": "cycle",
+          "opts": [
+            "−",
+            "Enh",
+            "+"
+          ],
+          "def": "Enh"
+        }
+      ],
+      "layout": {
+        "image": "strymon-riverside.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "sunset": {
+      "name": "Sunset",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#3a0808",
+      "knobs": [
+        {
+          "id": "levelA",
+          "label": "Level A",
+          "def": 0.6
+        },
+        {
+          "id": "driveA",
+          "label": "Drive A",
+          "def": 0.4
+        },
+        {
+          "id": "toneA",
+          "label": "Tone A",
+          "def": 0.5
+        },
+        {
+          "id": "levelB",
+          "label": "Level B",
+          "def": 0.6
+        },
+        {
+          "id": "driveB",
+          "label": "Drive B",
+          "def": 0.4
+        },
+        {
+          "id": "toneB",
+          "label": "Tone B",
+          "def": 0.5
+        }
+      ],
+      "knobRows": [
+        [
+          "levelA",
+          "driveA",
+          "toneA"
+        ],
+        [
+          "levelB",
+          "driveB",
+          "toneB"
+        ]
+      ],
+      "switches": [
+        {
+          "id": "typeA",
+          "label": "Ch A",
+          "type": "cycle",
+          "opts": [
+            "Ge",
+            "Texas",
+            "Treble"
+          ],
+          "def": "Texas"
+        },
+        {
+          "id": "typeB",
+          "label": "Ch B",
+          "type": "cycle",
+          "opts": [
+            "2 Stage",
+            "Hard",
+            "JFET"
+          ],
+          "def": "2 Stage"
+        },
+        {
+          "id": "config",
+          "label": "Config",
+          "type": "cycle",
+          "opts": [
+            "A→B",
+            "B→A",
+            "A+B"
+          ],
+          "def": "A→B"
+        },
+        {
+          "id": "bright",
+          "label": "Bright",
+          "type": "cycle",
+          "opts": [
+            "−",
+            "Neutral",
+            "+"
+          ],
+          "def": "Neutral"
+        }
+      ],
+      "layout": {
+        "image": "strymon-sunset.png",
+        "controls": {}
+      }
+    },
+    "compadre": {
+      "name": "Compadre",
+      "cat": "Compression",
+      "inst": "guitar",
+      "color": "#4a0808",
+      "knobs": [
+        {
+          "id": "boost",
+          "label": "Boost",
+          "def": 0.5
+        },
+        {
+          "id": "comp",
+          "label": "Comp",
+          "def": 0.5
+        },
+        {
+          "id": "dry",
+          "label": "Dry",
+          "def": 0
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "boostEQ",
+          "label": "Boost EQ",
+          "type": "cycle",
+          "opts": [
+            "Treble",
+            "Mid",
+            "Flat"
+          ],
+          "def": "Flat"
+        },
+        {
+          "id": "comptype",
+          "label": "Comp",
+          "type": "toggle",
+          "opts": [
+            "Studio",
+            "Squeeze"
+          ],
+          "def": "Studio"
+        },
+        {
+          "id": "boosttype",
+          "label": "Boost Typ",
+          "type": "toggle",
+          "opts": [
+            "Clean",
+            "Dirty"
+          ],
+          "def": "Clean"
+        }
+      ],
+      "layout": {
+        "image": "strymon-compadre.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "iridium": {
+      "name": "Iridium",
+      "cat": "Multi-FX",
+      "inst": "guitar",
+      "color": "#0a0a0a",
+      "knobs": [
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.4
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "middle",
+          "label": "Middle",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "room",
+          "label": "Room",
+          "def": 0.2
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.6
+        }
+      ],
+      "knobRows": [
+        [
+          "drive",
+          "bass",
+          "middle"
+        ],
+        [
+          "treble",
+          "room",
+          "level"
+        ]
+      ],
+      "switches": [
+        {
+          "id": "amp",
+          "label": "Amp",
+          "type": "cycle",
+          "opts": [
+            "Round",
+            "Chime",
+            "Punch"
+          ],
+          "def": "Round"
+        },
+        {
+          "id": "cab",
+          "label": "Cab",
+          "type": "cycle",
+          "opts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "def": "1"
+        }
+      ],
+      "layout": {
+        "image": "strymon-iridium.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "ec1": {
+      "name": "EC-1",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#2a2a2a",
+      "knobs": [
+        {
+          "id": "time",
+          "label": "Time",
+          "def": 0.4
+        },
+        {
+          "id": "reclevel",
+          "label": "Rec Level",
+          "def": 0.7
+        },
+        {
+          "id": "mix",
+          "label": "Mix",
+          "def": 0.3
+        },
+        {
+          "id": "tapeage",
+          "label": "Tape Age",
+          "def": 0.3
+        },
+        {
+          "id": "repeats",
+          "label": "Repeats",
+          "def": 0.3
+        },
+        {
+          "id": "mechanics",
+          "label": "Mechanics",
+          "def": 0.2
+        }
+      ],
+      "knobRows": [
+        [
+          "time",
+          "reclevel",
+          "mix"
+        ],
+        [
+          "tapeage",
+          "repeats",
+          "mechanics"
+        ]
+      ],
+      "switches": [
+        {
+          "id": "drive",
+          "label": "Drive",
+          "type": "cycle",
+          "opts": [
+            "Low",
+            "Med",
+            "High"
+          ],
+          "def": "Med"
+        }
+      ],
+      "layout": {
+        "image": "strymon-ec1.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    }
+  }
+}

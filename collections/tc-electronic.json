@@ -1,0 +1,8 @@
+{
+  "brand": "TC Electronic",
+  "pedals": {
+    "flashback": { "name": "Flashback X4",   "cat": "Delay",   "inst": "guitar", "color": "#882808", "knobs": [{"id":"delay","label":"Delay","def":0.4},{"id":"fback","label":"Feedback","def":0.3},{"id":"level","label":"Level","def":0.4}] },
+    "hof2":      { "name": "Hall of Fame 2", "cat": "Reverb",  "inst": "guitar", "color": "#701408", "knobs": [{"id":"decay","label":"Decay","def":0.4},{"id":"tone","label":"Tone","def":0.5},{"id":"level","label":"Level","def":0.4}] },
+    "ditto":     { "name": "Ditto Looper",   "cat": "Routing", "inst": "guitar", "color": "#1a1a14", "knobs": [{"id":"level","label":"Level","def":0.7}] }
+  }
+}

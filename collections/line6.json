@@ -1,0 +1,6 @@
+{
+  "brand": "Line 6",
+  "pedals": {
+    "hxstomp": { "name": "HX Stomp", "cat": "Multi-FX", "inst": "guitar", "color": "#182010", "knobs": [{"id":"vol","label":"Volume","def":0.7},{"id":"param1","label":"Param 1","def":0.5},{"id":"param2","label":"Param 2","def":0.5}], "switches": [{"id":"sw2","label":"Sw 2","type":"fs","def":false},{"id":"sw3","label":"Sw 3","type":"fs","def":false}] }
+  }
+}

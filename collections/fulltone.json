@@ -1,0 +1,6 @@
+{
+  "brand": "Fulltone",
+  "pedals": {
+    "ocd": { "name": "OCD Overdrive", "cat": "Gain/Drive", "inst": "guitar", "color": "#4a3e18", "knobs": [{"id":"vol","label":"Vol","def":0.5},{"id":"tone","label":"Tone","def":0.5},{"id":"drive","label":"Drive","def":0.4}], "switches": [{"id":"voicing","label":"HP/LP","type":"toggle","opts":["HP","LP"],"def":"HP"}] }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "brand": "Dunlop",
+  "pedals": {
+    "fuzzface": {
+      "name": "Fuzz Face",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#8a1010",
+      "knobs": [
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.6
+        },
+        {
+          "id": "fuzz",
+          "label": "Fuzz",
+          "def": 0.7
+        }
+      ],
+      "layout": {
+        "image": "dunlop-fuzz-face.png",
+        "controls": {
+          "fuzz": {
+            "x": 0.773,
+            "y": 0.235,
+            "label": "fuzz",
+            "knobSize": 0.2
+          },
+          "volume": {
+            "x": 0.229,
+            "y": 0.223,
+            "label": "VOLUME",
+            "knobSize": 0.2
+          },
+          "on_off": {
+            "x": 0.504,
+            "y": 0.712,
+            "type": "fs",
+            "label": "ON OFF"
+          },
+          "out": {
+            "x": 0.641,
+            "y": 0.02,
+            "type": "port-out",
+            "label": "Output"
+          },
+          "in": {
+            "x": 0.365,
+            "y": 0.006,
+            "type": "port-in",
+            "label": "Input"
+          }
+        },
+        "removeWhiteBg": true
+      }
+    },
+    "crybaby": {
+      "name": "Cry Baby GCB-95",
+      "cat": "Wah/Special",
+      "inst": "guitar",
+      "color": "#252525",
+      "knobs": [
+        {
+          "id": "pos",
+          "label": "Position",
+          "def": 0.3
+        }
+      ],
+      "layout": {
+        "image": "dunlop-gcb95-cry-baby.jpg",
+        "controls": {
+          "in": {
+            "x": 0.918,
+            "y": 0.538,
+            "type": "port-in",
+            "label": "Input"
+          },
+          "out": {
+            "x": 0.077,
+            "y": 0.532,
+            "type": "port-out",
+            "label": "Output"
+          },
+          "value": {
+            "x": 0.51,
+            "y": 0.19,
+            "label": "VALUE",
+            "knobSize": 0.3
+          }
+        },
+        "widthMm": 100,
+        "heightMm": 255,
+        "removeWhiteBg": true
+      }
+    }
+  }
+}

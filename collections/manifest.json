@@ -1,0 +1,29 @@
+{
+  "collections": [
+    "aguilar.json",
+    "basses.json",
+    "cabinets.json",
+    "guitars.json",
+    "boss.json",
+    "darkglass.json",
+    "digitech.json",
+    "dunlop.json",
+    "electro-harmonix.json",
+    "engl.json",
+    "eventide.json",
+    "fulltone.json",
+    "ibanez.json",
+    "keeley.json",
+    "klon.json",
+    "line6.json",
+    "marshall.json",
+    "mesa-boogie.json",
+    "morley.json",
+    "mxr.json",
+    "origin-effects.json",
+    "proco.json",
+    "strymon.json",
+    "tc-electronic.json",
+    "tech21.json"
+  ]
+}

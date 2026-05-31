@@ -1,0 +1,7 @@
+{
+  "brand": "DigiTech",
+  "pedals": {
+    "whammy5":   { "name": "Whammy 5",   "cat": "Pitch", "inst": "guitar", "color": "#500808", "knobs": [{"id":"pitch","label":"Pitch","def":0.5},{"id":"pedal","label":"Pedal","def":0}], "switches": [{"id":"mode","label":"Classic/Chords","type":"toggle","opts":["Classic","Chords"],"def":"Classic"}] },
+    "pitchfork": { "name": "Pitchfork",  "cat": "Pitch", "inst": "guitar", "color": "#480808", "knobs": [{"id":"pitch","label":"Pitch","def":0.5},{"id":"blend","label":"Blend","def":0.7}] }
+  }
+}

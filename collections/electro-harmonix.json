@@ -1,0 +1,156 @@
+{
+  "brand": "Electro-Harmonix",
+  "pedals": {
+    "bigmuff": {
+      "name": "Big Muff Pi",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#1a4a1a",
+      "knobs": [
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "sustain",
+          "label": "Sustain",
+          "def": 0.6
+        }
+      ]
+    },
+    "soulfood": {
+      "name": "Soul Food",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#1e1c18",
+      "knobs": [
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.3
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "vol",
+          "label": "Vol",
+          "def": 0.5
+        }
+      ]
+    },
+    "holygrail": {
+      "name": "Holy Grail",
+      "cat": "Reverb",
+      "inst": "guitar",
+      "color": "#0a280a",
+      "knobs": [
+        {
+          "id": "reverb",
+          "label": "Reverb",
+          "def": 0.3
+        }
+      ]
+    },
+    "smallclone": {
+      "name": "Small Clone",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#0a1848",
+      "knobs": [
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        }
+      ]
+    },
+    "nanopog": {
+      "name": "Nano POG",
+      "cat": "Wah/Special",
+      "inst": "guitar",
+      "color": "#181818",
+      "knobs": [
+        {
+          "id": "suboct",
+          "label": "Sub Oct",
+          "def": 0
+        },
+        {
+          "id": "dry",
+          "label": "Dry",
+          "def": 0.7
+        },
+        {
+          "id": "octu",
+          "label": "Oct Up",
+          "def": 0
+        }
+      ]
+    },
+    "bassmuff": {
+      "name": "Bass Big Muff Pi",
+      "cat": "Bass",
+      "inst": "bass",
+      "color": "#1a3018",
+      "knobs": [
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "sustain",
+          "label": "Sustain",
+          "def": 0.6
+        }
+      ]
+    },
+    "ramsmuff": {
+      "name": "Ram's Head Big Muff Pi",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#1a4a1a",
+      "knobs": [
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "sustain",
+          "label": "Sustain",
+          "def": 0.6
+        }
+      ],
+      "layout": {
+        "image": "electro-harmonix-rams-head-big-muff-pi.jpg",
+        "removeWhiteBg": true,
+        "controls": {}
+      }
+    }
+  }
+}

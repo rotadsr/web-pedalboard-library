@@ -1,0 +1,56 @@
+{
+  "brand": "Ibanez",
+  "pedals": {
+    "ts9": {
+      "name": "TS-9 Tube Screamer",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#1a5c0a",
+      "knobs": [
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        }
+      ]
+    },
+    "ts808": {
+      "name": "TS808 Tube Screamer",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#145008",
+      "knobs": [
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.4
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "ibanez-ts808.png",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    }
+  }
+}

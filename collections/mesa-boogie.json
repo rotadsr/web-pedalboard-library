@@ -1,0 +1,346 @@
+{
+  "brand": "Mesa/Boogie",
+  "amps": {
+    "markvfive25": {
+      "name": "Mark Five: 25",
+      "color": "#0d0a05",
+      "knobs": [
+        {
+          "id": "gain1",
+          "label": "Gain",
+          "def": 0.4
+        },
+        {
+          "id": "mid1",
+          "label": "Mid/Boost",
+          "def": 0.5
+        },
+        {
+          "id": "bass1",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "treble1",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "reverb1",
+          "label": "Reverb",
+          "def": 0.2
+        },
+        {
+          "id": "gain2",
+          "label": "Gain",
+          "def": 0.6
+        },
+        {
+          "id": "mid2",
+          "label": "Mid",
+          "def": 0.5
+        },
+        {
+          "id": "bass2",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "treble2",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "reverb2",
+          "label": "Reverb",
+          "def": 0.2
+        },
+        {
+          "id": "presence",
+          "label": "Presence",
+          "def": 0.5
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "def": 0.5
+        }
+      ],
+      "knobRows": [
+        {
+          "label": "Channel 1"
+        },
+        [
+          "gain1",
+          "mid1",
+          "bass1",
+          "treble1",
+          "reverb1"
+        ],
+        {
+          "label": "Channel 2"
+        },
+        [
+          "gain2",
+          "mid2",
+          "bass2",
+          "treble2",
+          "reverb2"
+        ],
+        {
+          "label": "Master"
+        },
+        [
+          "presence",
+          "master"
+        ]
+      ],
+      "eqSliders": [
+        {
+          "id": "eq80",
+          "label": "80",
+          "def": 0.5
+        },
+        {
+          "id": "eq240",
+          "label": "240",
+          "def": 0.5
+        },
+        {
+          "id": "eq750",
+          "label": "750",
+          "def": 0.5
+        },
+        {
+          "id": "eq2k2",
+          "label": "2.2k",
+          "def": 0.5
+        },
+        {
+          "id": "eq6k6",
+          "label": "6.6k",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "ch1mode",
+          "label": "Ch1",
+          "type": "cycle",
+          "opts": [
+            "Clean",
+            "Fat",
+            "Crunch"
+          ],
+          "def": "Clean"
+        },
+        {
+          "id": "ch2mode",
+          "label": "Ch2",
+          "type": "cycle",
+          "opts": [
+            "IIC+",
+            "MK IV",
+            "Xtreme"
+          ],
+          "def": "IIC+"
+        },
+        {
+          "id": "ch1pwr",
+          "label": "Ch1 Pwr",
+          "type": "toggle",
+          "opts": [
+            "25W",
+            "10W"
+          ],
+          "def": "25W"
+        },
+        {
+          "id": "ch2pwr",
+          "label": "Ch2 Pwr",
+          "type": "toggle",
+          "opts": [
+            "25W",
+            "10W"
+          ],
+          "def": "25W"
+        },
+        {
+          "id": "eq",
+          "label": "EQ",
+          "type": "fs",
+          "def": true
+        }
+      ],
+      "switchJustify": "space-between",
+      "layout": {
+        "image": "mesa-boogie-mark-five-25-head.png",
+        "controls": {
+          "eq1": {
+            "x": 0.654,
+            "y": 0.383,
+            "type": "slider",
+            "label": "EQ1",
+            "sliderSize": 0.12
+          },
+          "eq2": {
+            "x": 0.692,
+            "y": 0.385,
+            "type": "slider",
+            "label": "EQ2",
+            "sliderSize": 0.12
+          },
+          "eq3": {
+            "x": 0.729,
+            "y": 0.385,
+            "type": "slider",
+            "label": "EQ3",
+            "sliderSize": 0.12
+          },
+          "eq4": {
+            "x": 0.768,
+            "y": 0.385,
+            "type": "slider",
+            "label": "EQ4",
+            "sliderSize": 0.12
+          },
+          "eq5": {
+            "x": 0.807,
+            "y": 0.385,
+            "type": "slider",
+            "label": "EQ5",
+            "sliderSize": 0.12
+          },
+          "gain_a": {
+            "x": 0.193,
+            "y": 0.336,
+            "label": "GAIN A"
+          },
+          "gain_b": {
+            "x": 0.193,
+            "y": 0.407,
+            "label": "GAIN B"
+          },
+          "treble_a": {
+            "x": 0.269,
+            "y": 0.338,
+            "label": "TREBLE A"
+          },
+          "treble_b": {
+            "x": 0.269,
+            "y": 0.407,
+            "label": "TREBLE B"
+          },
+          "mid_a": {
+            "x": 0.344,
+            "y": 0.336,
+            "label": "MID A"
+          },
+          "mid_b": {
+            "x": 0.346,
+            "y": 0.405,
+            "label": "MID B"
+          },
+          "bass_a": {
+            "x": 0.424,
+            "y": 0.338,
+            "label": "BASS A"
+          },
+          "bass_b": {
+            "x": 0.42,
+            "y": 0.405,
+            "label": "BASS B"
+          },
+          "presence_a": {
+            "x": 0.498,
+            "y": 0.334,
+            "label": "PRESENCE A"
+          },
+          "presence_b": {
+            "x": 0.5,
+            "y": 0.405,
+            "label": "PRESENCE B"
+          },
+          "master_a": {
+            "x": 0.576,
+            "y": 0.336,
+            "label": "MASTER A"
+          },
+          "master_b": {
+            "x": 0.576,
+            "y": 0.405,
+            "label": "MASTER B"
+          },
+          "eq_a": {
+            "x": 0.625,
+            "y": 0.329,
+            "type": "toggle",
+            "label": "EQ A",
+            "opts": [
+              "ON",
+              "OFF"
+            ],
+            "orientation": "v"
+          },
+          "eq_b": {
+            "x": 0.625,
+            "y": 0.42,
+            "type": "toggle",
+            "label": "EQ B",
+            "opts": [
+              "ON",
+              "OFF"
+            ],
+            "orientation": "v"
+          },
+          "power_a": {
+            "x": 0.84,
+            "y": 0.332,
+            "type": "toggle",
+            "label": "POWER A",
+            "opts": [
+              "10",
+              "25"
+            ],
+            "orientation": "v"
+          },
+          "power_b": {
+            "x": 0.84,
+            "y": 0.422,
+            "type": "toggle",
+            "label": "POWER B",
+            "opts": [
+              "10",
+              "25"
+            ],
+            "orientation": "v"
+          },
+          "channel_a": {
+            "x": 0.146,
+            "y": 0.327,
+            "type": "toggle",
+            "label": "CHANNEL A",
+            "opts": [
+              "Clean",
+              "Crunch"
+            ],
+            "orientation": "v"
+          },
+          "channel_2": {
+            "x": 0.146,
+            "y": 0.42,
+            "type": "toggle",
+            "label": "CHANNEL 2",
+            "opts": [
+              "MKIIC+",
+              "XTREME"
+            ],
+            "orientation": "v"
+          }
+        },
+        "widthMm": 356,
+        "heightMm": 203
+      }
+    }
+  }
+}

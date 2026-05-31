@@ -1,0 +1,349 @@
+{
+  "brand": "Eventide",
+  "pedals": {
+    "h9": {
+      "name": "H9 Max",
+      "cat": "Multi-FX",
+      "inst": "guitar",
+      "color": "#252525",
+      "modes": [
+        {
+          "group": "Delay (TimeFactor)",
+          "opts": [
+            "Digital Delay",
+            "Vintage Delay",
+            "Tape Echo",
+            "Mod Delay",
+            "Ducked Delay",
+            "Band Delay",
+            "Filter Delay",
+            "Lo-Fi Delay",
+            "Reverse",
+            "Dynamic Delay",
+            "Multi-Tap",
+            "2290+Mod"
+          ]
+        },
+        {
+          "group": "Modulation (ModFactor)",
+          "opts": [
+            "Chorus",
+            "Flanger",
+            "Phaser",
+            "Q-Wah",
+            "ModFilter",
+            "Rotary",
+            "Vibrato",
+            "Tremolo",
+            "Ring Mod",
+            "Harmadillo"
+          ]
+        },
+        {
+          "group": "Pitch (PitchFactor)",
+          "opts": [
+            "Diatonic",
+            "Quadravox",
+            "PitchFlex",
+            "Crystals",
+            "HarModulator",
+            "MicroPitch",
+            "H910/H949",
+            "Octaver"
+          ]
+        },
+        {
+          "group": "Reverb (Space)",
+          "opts": [
+            "Hall",
+            "Room",
+            "Plate",
+            "Spring",
+            "Blackhole",
+            "Shimmer",
+            "ModEchoVerb",
+            "TremoloVerb",
+            "Resonance",
+            "Cavern"
+          ]
+        },
+        {
+          "group": "H9 Exclusive",
+          "opts": [
+            "SpaceTime",
+            "Sculpt",
+            "Resonator",
+            "Crushstation",
+            "UltraTap",
+            "Looper"
+          ]
+        }
+      ],
+      "knobs": [
+        {
+          "id": "x",
+          "label": "X",
+          "def": 0.5
+        },
+        {
+          "id": "y",
+          "label": "Y",
+          "def": 0.5
+        },
+        {
+          "id": "z",
+          "label": "Z",
+          "def": 0.5
+        },
+        {
+          "id": "ribbon",
+          "label": "Ribbon",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "eventide-h9-max.png",
+        "controls": {
+          "tap": {
+            "x": 0.814,
+            "y": 0.811,
+            "type": "fs",
+            "label": "Tap"
+          },
+          "active": {
+            "x": 0.173,
+            "y": 0.811,
+            "type": "fs",
+            "label": "Active"
+          },
+          "in_l": {
+            "x": 0.864,
+            "y": 0.004,
+            "type": "port-in",
+            "label": "In L"
+          },
+          "in_r": {
+            "x": 0.74,
+            "y": 0.002,
+            "type": "port-in",
+            "label": "In R"
+          },
+          "out_l": {
+            "x": 0.557,
+            "y": 0,
+            "type": "port-out",
+            "label": "Out L"
+          },
+          "out_r": {
+            "x": 0.431,
+            "y": 0.002,
+            "type": "port-out",
+            "label": "Out R"
+          }
+        }
+      }
+    },
+    "h90": {
+      "name": "H90 Harmonizer",
+      "cat": "Multi-FX",
+      "inst": "guitar",
+      "color": "#e8e8e8",
+      "modes": [
+        {
+          "group": "Reverb",
+          "opts": [
+            "Hall",
+            "Room",
+            "Plate",
+            "Spring",
+            "Blackhole",
+            "Shimmer",
+            "MangledVerb",
+            "SP2016",
+            "Cavern",
+            "Tiled Room",
+            "Courser Verb",
+            "Fission"
+          ]
+        },
+        {
+          "group": "Delay",
+          "opts": [
+            "Digital Delay",
+            "Vintage Delay",
+            "Tape Echo",
+            "Mod Delay",
+            "Ducked Delay",
+            "Band Delay",
+            "Multi-Tap",
+            "2290+Mod",
+            "Instant Phaser",
+            "Reverse"
+          ]
+        },
+        {
+          "group": "Modulation",
+          "opts": [
+            "Chorus",
+            "Flanger",
+            "Phaser",
+            "Rotary",
+            "Vibrato",
+            "Tremolo",
+            "Ring Mod",
+            "Undulator",
+            "Instant Flanger"
+          ]
+        },
+        {
+          "group": "Pitch",
+          "opts": [
+            "Diatonic",
+            "Quadravox",
+            "PitchFlex",
+            "Crystals",
+            "MicroPitch",
+            "H910/H949",
+            "Octaver",
+            "HarModulator",
+            "PitchDrum"
+          ]
+        },
+        {
+          "group": "Dynamics",
+          "opts": [
+            "Sculpt",
+            "Crushstation",
+            "UltraTap",
+            "EQ Compressor"
+          ]
+        },
+        {
+          "group": "Special",
+          "opts": [
+            "SpaceTime",
+            "Resonator",
+            "Looper"
+          ]
+        }
+      ],
+      "knobs": [
+        {
+          "id": "perform",
+          "label": "Perform",
+          "def": 0.5
+        },
+        {
+          "id": "mix",
+          "label": "Mix",
+          "def": 0.4
+        },
+        {
+          "id": "levelA",
+          "label": "Level A",
+          "def": 0.5
+        },
+        {
+          "id": "levelB",
+          "label": "Level B",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "active",
+          "label": "Active",
+          "type": "fs",
+          "def": true
+        },
+        {
+          "id": "a",
+          "label": "A",
+          "type": "fs",
+          "def": false
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "type": "fs",
+          "def": false
+        }
+      ],
+      "layout": {
+        "image": "eventide-h90.png",
+        "controls": {
+          "select": {
+            "x": 0.114,
+            "y": 0.266,
+            "label": "Select"
+          },
+          "perform": {
+            "x": 0.881,
+            "y": 0.266,
+            "label": "Perform"
+          },
+          "control_1": {
+            "x": 0.332,
+            "y": 0.505,
+            "label": "Control 1",
+            "knobSize": 0.1
+          },
+          "control_2": {
+            "x": 0.497,
+            "y": 0.505,
+            "label": "Control 2",
+            "knobSize": 0.1
+          },
+          "control_3": {
+            "x": 0.663,
+            "y": 0.505,
+            "label": "Control 3",
+            "knobSize": 0.1
+          },
+          "p": {
+            "x": 0.122,
+            "y": 0.854,
+            "type": "fs",
+            "label": "Active"
+          },
+          "a": {
+            "x": 0.5,
+            "y": 0.854,
+            "type": "fs",
+            "label": "A"
+          },
+          "b": {
+            "x": 0.883,
+            "y": 0.857,
+            "type": "fs",
+            "label": "B"
+          },
+          "in_l": {
+            "x": 0.71,
+            "y": 0.023,
+            "type": "port-in",
+            "label": "In L"
+          },
+          "in_r": {
+            "x": 0.606,
+            "y": 0.02,
+            "type": "port-in",
+            "label": "In R"
+          },
+          "out_l": {
+            "x": 0.497,
+            "y": 0.029,
+            "type": "port-out",
+            "label": "Out L"
+          },
+          "out_r": {
+            "x": 0.402,
+            "y": 0.026,
+            "type": "port-out",
+            "label": "Out R"
+          }
+        }
+      }
+    }
+  }
+}

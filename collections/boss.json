@@ -1,0 +1,4283 @@
+{
+  "brand": "Boss",
+  "pedals": {
+    "bd2": {
+      "name": "BD-2 Blues Driver",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#6a5200",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "image": "boss-bd-2.jpg",
+        "controls": {
+          "gain": {
+            "x": 0.725,
+            "y": 0.125,
+            "label": "GAIN",
+            "knobSize": 0.4
+          },
+          "level": {
+            "x": 0.268,
+            "y": 0.119,
+            "label": "LEVEL",
+            "knobSize": 0.4
+          },
+          "tone": {
+            "x": 0.496,
+            "y": 0.229,
+            "label": "TONE",
+            "knobSize": 0.29
+          },
+          "in": {
+            "x": 0.976,
+            "y": 0.393,
+            "type": "port-in",
+            "label": "Input"
+          },
+          "out": {
+            "x": 0.021,
+            "y": 0.387,
+            "type": "port-out",
+            "label": "Output"
+          }
+        },
+        "removeWhiteBg": true
+      }
+    },
+    "ds1": {
+      "name": "DS-1 Distortion",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#a83800",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "dist",
+          "label": "Dist",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-ds-1.png",
+        "controls": {
+          "tone": {
+            "x": 0.283,
+            "y": 0.155,
+            "label": "TONE",
+            "knobSize": 0.38
+          },
+          "dist": {
+            "x": 0.684,
+            "y": 0.153,
+            "label": "DIST",
+            "knobSize": 0.38
+          },
+          "level": {
+            "x": 0.484,
+            "y": 0.254,
+            "label": "LEVEL",
+            "knobSize": 0.24
+          },
+          "in": {
+            "x": 0.894,
+            "y": 0.395,
+            "type": "port-in",
+            "label": "Input"
+          },
+          "out": {
+            "x": 0.06,
+            "y": 0.403,
+            "type": "port-out",
+            "label": "Output"
+          }
+        },
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "mt2": {
+      "name": "MT-2 Metal Zone",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#280858",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "low",
+          "label": "Low",
+          "def": 0.5
+        },
+        {
+          "id": "mid",
+          "label": "Mid",
+          "def": 0.5
+        },
+        {
+          "id": "high",
+          "label": "High",
+          "def": 0.5
+        },
+        {
+          "id": "dist",
+          "label": "Dist",
+          "def": 0.7
+        }
+      ],
+      "layout": {
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "image": "boss-mt-2.jpg",
+        "removeWhiteBg": true
+      }
+    },
+    "cs3": {
+      "name": "CS-3 Compressor",
+      "cat": "Compression",
+      "inst": "guitar",
+      "color": "#901838",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "attack",
+          "label": "Attack",
+          "def": 0.3
+        },
+        {
+          "id": "sustain",
+          "label": "Sustain",
+          "def": 0.6
+        }
+      ],
+      "layout": {
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "image": "boss-cs-3.jpg",
+        "removeWhiteBg": true
+      }
+    },
+    "ce2": {
+      "name": "CE-2 Chorus",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#185878",
+      "knobs": [
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-ce-2.png",
+        "controls": {
+          "depth": {
+            "x": 0.683,
+            "y": 0.153,
+            "label": "DEPTH",
+            "knobSize": 0.4
+          },
+          "rate": {
+            "x": 0.282,
+            "y": 0.153,
+            "label": "RATE",
+            "knobSize": 0.4
+          },
+          "in": {
+            "x": 0.908,
+            "y": 0.403,
+            "type": "port-in",
+            "label": "Input"
+          },
+          "out": {
+            "x": 0.06,
+            "y": 0.403,
+            "type": "port-out",
+            "label": "Output"
+          }
+        },
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "bf3": {
+      "name": "BF-3 Flanger",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#083880",
+      "knobs": [
+        {
+          "id": "manual",
+          "label": "Manual",
+          "def": 0.5
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        },
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "res",
+          "label": "Resonance",
+          "def": 0.4
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Normal",
+            "Ultra",
+            "Tri",
+            "Gate"
+          ],
+          "def": "Normal"
+        }
+      ],
+      "layout": {
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "image": "boss-bf-3.jpg",
+        "removeWhiteBg": true
+      }
+    },
+    "tr2": {
+      "name": "TR-2 Tremolo",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#300858",
+      "knobs": [
+        {
+          "id": "wave",
+          "label": "Wave",
+          "def": 0.5
+        },
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "image": "boss-tr-2.jpg",
+        "removeWhiteBg": true
+      }
+    },
+    "dd3": {
+      "name": "DD-3 Delay",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#6a5200",
+      "knobs": [
+        {
+          "id": "elevel",
+          "label": "E.Level",
+          "def": 0.4
+        },
+        {
+          "id": "fback",
+          "label": "F.Back",
+          "def": 0.3
+        },
+        {
+          "id": "dtime",
+          "label": "D.Time",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "image": "boss-dd-3.jpg",
+        "removeWhiteBg": true
+      }
+    },
+    "rv6": {
+      "name": "RV-6 Reverb",
+      "cat": "Reverb",
+      "inst": "guitar",
+      "color": "#006050",
+      "knobs": [
+        {
+          "id": "elevel",
+          "label": "E.Level",
+          "def": 0.4
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.6
+        },
+        {
+          "id": "time",
+          "label": "Time",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "image": "boss-rv-6.png"
+      }
+    },
+    "tu3": {
+      "name": "TU-3 Tuner",
+      "cat": "Wah/Special",
+      "inst": "guitar",
+      "color": "#181818",
+      "knobs": [],
+      "layout": {
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "image": "boss-tu-3.jpg",
+        "removeWhiteBg": true
+      }
+    },
+    "ls2": {
+      "name": "LS-2 Line Selector",
+      "cat": "Routing",
+      "inst": "guitar",
+      "color": "#083878",
+      "knobs": [
+        {
+          "id": "alevel",
+          "label": "A Level",
+          "def": 0.7
+        },
+        {
+          "id": "blevel",
+          "label": "B Level",
+          "def": 0.7
+        },
+        {
+          "id": "bal",
+          "label": "Balance",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "image": "boss-ls-2.png"
+      }
+    },
+    "es5": {
+      "name": "ES-5 Loop Switcher",
+      "cat": "Routing",
+      "inst": "guitar",
+      "color": "#181818",
+      "knobs": [],
+      "layout": {
+        "controls": {},
+        "image": "boss-es-5.jpg",
+        "removeWhiteBg": true
+      }
+    },
+    "es8": {
+      "name": "ES-8 Loop Switcher",
+      "cat": "Routing",
+      "inst": "guitar",
+      "color": "#181818",
+      "knobs": [],
+      "layout": {
+        "controls": {},
+        "image": "boss-es-8.jpg",
+        "removeWhiteBg": true
+      }
+    },
+    "rc3": {
+      "name": "RC-3 Loop Station",
+      "cat": "Routing",
+      "inst": "guitar",
+      "color": "#1a5028",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.7
+        }
+      ],
+      "layout": {
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "image": "boss-rc-3.jpg",
+        "removeWhiteBg": true
+      }
+    },
+    "sp1": {
+      "name": "SP-1 Spectrum",
+      "cat": "Filter/EQ",
+      "inst": "guitar",
+      "color": "#1a4010",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.7
+        },
+        {
+          "id": "balance",
+          "label": "Balance",
+          "def": 0.5
+        },
+        {
+          "id": "spectrum",
+          "label": "Spectrum",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-sp-1.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "tw1": {
+      "name": "TW-1 Touch Wah",
+      "cat": "Filter/EQ",
+      "inst": "guitar",
+      "color": "#5a3008",
+      "knobs": [
+        {
+          "id": "sens",
+          "label": "Sensitivity",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Up",
+            "Down"
+          ],
+          "def": "Up"
+        }
+      ],
+      "layout": {
+        "image": "boss-tw-1.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "od1": {
+      "name": "OD-1 OverDrive",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#b85000",
+      "knobs": [
+        {
+          "id": "overdrive",
+          "label": "Overdrive",
+          "def": 0.5
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.6
+        }
+      ],
+      "layout": {
+        "image": "boss-od-1.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "ph1": {
+      "name": "PH-1 Phaser",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#401828",
+      "knobs": [
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "image": "boss-ph-1.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "cs1": {
+      "name": "CS-1 Compression Sustainer",
+      "cat": "Compression",
+      "inst": "guitar",
+      "color": "#680010",
+      "knobs": [
+        {
+          "id": "attack",
+          "label": "Attack",
+          "def": 0.3
+        },
+        {
+          "id": "sustain",
+          "label": "Sustain",
+          "def": 0.6
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.7
+        }
+      ],
+      "layout": {
+        "image": "boss-cs-1.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "dm2": {
+      "name": "DM-2 Delay",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#503010",
+      "knobs": [
+        {
+          "id": "elevel",
+          "label": "E.Level",
+          "def": 0.4
+        },
+        {
+          "id": "repeatrate",
+          "label": "Repeat Rate",
+          "def": 0.3
+        },
+        {
+          "id": "echodelay",
+          "label": "Echo",
+          "def": 0.3
+        }
+      ],
+      "layout": {
+        "image": "boss-dm-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "sg1": {
+      "name": "SG-1 Slow Gear",
+      "cat": "Dynamics",
+      "inst": "guitar",
+      "color": "#303030",
+      "knobs": [
+        {
+          "id": "sens",
+          "label": "Sens",
+          "def": 0.5
+        },
+        {
+          "id": "attack",
+          "label": "Attack",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "image": "boss-sg-1.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "cs2": {
+      "name": "CS-2 Compression Sustainer",
+      "cat": "Compression",
+      "inst": "guitar",
+      "color": "#5a0018",
+      "knobs": [
+        {
+          "id": "attack",
+          "label": "Attack",
+          "def": 0.3
+        },
+        {
+          "id": "sustain",
+          "label": "Sustain",
+          "def": 0.6
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.7
+        }
+      ],
+      "layout": {
+        "image": "boss-cs-2.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "bf2": {
+      "name": "BF-2 Flanger",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#101840",
+      "knobs": [
+        {
+          "id": "manual",
+          "label": "Manual",
+          "def": 0.5
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        },
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "res",
+          "label": "Resonance",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "image": "boss-bf-2.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "sd1": {
+      "name": "SD-1 Super OverDrive",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#a86000",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "image": "boss-sd-1.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "vb2": {
+      "name": "VB-2 Vibrato",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#081838",
+      "knobs": [
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        },
+        {
+          "id": "risetime",
+          "label": "Rise Time",
+          "def": 0.4
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Latch",
+            "Unlatch",
+            "Bypass"
+          ],
+          "def": "Latch"
+        }
+      ],
+      "layout": {
+        "image": "boss-vb-2.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "dd2": {
+      "name": "DD-2 Digital Delay",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#604800",
+      "knobs": [
+        {
+          "id": "elevel",
+          "label": "E.Level",
+          "def": 0.4
+        },
+        {
+          "id": "fback",
+          "label": "F.Back",
+          "def": 0.3
+        },
+        {
+          "id": "dtime",
+          "label": "D.Time",
+          "def": 0.35
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "50ms",
+            "200ms",
+            "800ms"
+          ],
+          "def": "200ms"
+        }
+      ],
+      "layout": {
+        "image": "boss-dd-2.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "dc2": {
+      "name": "DC-2 Dimension C",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#0818a8",
+      "knobs": [],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "2+4"
+          ],
+          "def": "2"
+        }
+      ],
+      "layout": {
+        "image": "boss-dc-2.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "df2": {
+      "name": "DF-2 Distortion/Feedbacker",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#900800",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "dist",
+          "label": "Dist",
+          "def": 0.6
+        }
+      ],
+      "layout": {
+        "image": "boss-df-2.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "od2": {
+      "name": "OD-2 Turbo OverDrive",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#b04800",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "turbo",
+          "label": "Turbo",
+          "type": "toggle",
+          "opts": [
+            "Off",
+            "On"
+          ],
+          "def": "Off"
+        }
+      ],
+      "layout": {
+        "image": "boss-od-2.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "pn2": {
+      "name": "PN-2 Tremolo/Pan",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#283898",
+      "knobs": [
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.6
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Tremolo",
+            "Pan"
+          ],
+          "def": "Tremolo"
+        }
+      ],
+      "layout": {
+        "image": "boss-pn-2.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "ps2": {
+      "name": "PS-2 Pitch Shifter/Delay",
+      "cat": "Pitch/Mod",
+      "inst": "guitar",
+      "color": "#181820",
+      "knobs": [
+        {
+          "id": "balance",
+          "label": "Balance",
+          "def": 0.5
+        },
+        {
+          "id": "fine",
+          "label": "Fine",
+          "def": 0.5
+        },
+        {
+          "id": "coarse",
+          "label": "Coarse",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Shift 1",
+            "Shift 2",
+            "Shift 3",
+            "Delay",
+            "Pitch+Delay"
+          ],
+          "def": "Shift 1"
+        }
+      ],
+      "layout": {
+        "image": "boss-ps-2.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "pw2": {
+      "name": "PW-2 Power Driver",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#280810",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "attack",
+          "label": "Attack",
+          "def": 0.4
+        },
+        {
+          "id": "dist",
+          "label": "Dist",
+          "def": 0.6
+        }
+      ],
+      "layout": {
+        "image": "boss-pw-2.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "xt2": {
+      "name": "XT-2 Distortion",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#200828",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "freq",
+          "label": "Freq",
+          "def": 0.5
+        },
+        {
+          "id": "dist",
+          "label": "Dist",
+          "def": 0.6
+        }
+      ],
+      "layout": {
+        "image": "boss-xt-2.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "oc2": {
+      "name": "OC-2 Octave",
+      "cat": "Pitch/Mod",
+      "inst": "guitar",
+      "color": "#1a3010",
+      "knobs": [
+        {
+          "id": "direct",
+          "label": "Direct Level",
+          "def": 0.7
+        },
+        {
+          "id": "oct1",
+          "label": "Oct 1",
+          "def": 0.5
+        },
+        {
+          "id": "oct2",
+          "label": "Oct 2",
+          "def": 0.0
+        }
+      ],
+      "layout": {
+        "image": "boss-oc-2.png",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129
+      }
+    },
+    "ac3": {
+      "name": "AC-3 Acoustic Simulator",
+      "cat": "Modeling",
+      "inst": "guitar",
+      "color": "#304818",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "body",
+          "label": "Body",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Acoustic",
+            "Enhanced",
+            "Standard",
+            "Ambience"
+          ],
+          "def": "Acoustic"
+        }
+      ],
+      "layout": {
+        "image": "boss-ac-3.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ad2": {
+      "name": "AD-2 Acoustic Preamp",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#303818",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.5
+        },
+        {
+          "id": "presence",
+          "label": "Presence",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "toggle",
+          "opts": [
+            "Normal",
+            "Enhanced"
+          ],
+          "def": "Normal"
+        }
+      ],
+      "layout": {
+        "image": "boss-ad-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "aw3": {
+      "name": "AW-3 Dynamic Wah",
+      "cat": "Filter/EQ",
+      "inst": "guitar",
+      "color": "#1a2850",
+      "knobs": [
+        {
+          "id": "sens",
+          "label": "Sens",
+          "def": 0.5
+        },
+        {
+          "id": "freq",
+          "label": "Freq",
+          "def": 0.5
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Pedal",
+            "Auto",
+            "LFO",
+            "Bass"
+          ],
+          "def": "Pedal"
+        }
+      ],
+      "layout": {
+        "image": "boss-aw-3.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "bb1x": {
+      "name": "BB-1X Bass Driver",
+      "cat": "Gain/Drive",
+      "inst": "bass",
+      "color": "#281808",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.5
+        },
+        {
+          "id": "low",
+          "label": "Low",
+          "def": 0.5
+        },
+        {
+          "id": "high",
+          "label": "High",
+          "def": 0.5
+        },
+        {
+          "id": "blend",
+          "label": "Blend",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-bb-1x.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "bc1x": {
+      "name": "BC-1X Bass Compressor",
+      "cat": "Compression",
+      "inst": "bass",
+      "color": "#1a0808",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "attack",
+          "label": "Attack",
+          "def": 0.5
+        },
+        {
+          "id": "release",
+          "label": "Release",
+          "def": 0.5
+        },
+        {
+          "id": "ratio",
+          "label": "Ratio",
+          "def": 0.5
+        },
+        {
+          "id": "threshold",
+          "label": "Threshold",
+          "def": 0.3
+        }
+      ],
+      "layout": {
+        "image": "boss-bc-1x.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "bp1w": {
+      "name": "BP-1W Bass Preamp",
+      "cat": "Gain/Drive",
+      "inst": "bass",
+      "color": "#282808",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Volume",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "mid",
+          "label": "Middle",
+          "def": 0.5
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-bp-1w.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ce2w": {
+      "name": "CE-2W Chorus",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#104060",
+      "knobs": [
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "toggle",
+          "opts": [
+            "CE-2",
+            "CE-1"
+          ],
+          "def": "CE-2"
+        }
+      ],
+      "layout": {
+        "image": "boss-ce-2w.jpg",
+        "controls": {
+          "rate": {
+            "x": 0.379,
+            "y": 0.151,
+            "label": "RATE",
+            "knobSize": 0.2
+          },
+          "depth": {
+            "x": 0.611,
+            "y": 0.145,
+            "label": "DEPTH",
+            "knobSize": 0.2
+          },
+          "ce1": {
+            "x": 0.498,
+            "y": 0.241,
+            "type": "toggle",
+            "label": "CE-1",
+            "opts": [
+              "s",
+              "ce",
+              "1"
+            ],
+            "positions": 3
+          },
+          "out_a": {
+            "x": 0.26,
+            "y": 0.397,
+            "type": "port-out",
+            "label": "Output A"
+          },
+          "out_b": {
+            "x": 0.265,
+            "y": 0.508,
+            "type": "port-out",
+            "label": "Output B"
+          },
+          "in": {
+            "x": 0.733,
+            "y": 0.383,
+            "type": "port-in",
+            "label": "Input"
+          }
+        },
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ce5": {
+      "name": "CE-5 Chorus Ensemble",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#0a3858",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "E.Level",
+          "def": 0.5
+        },
+        {
+          "id": "eq_high",
+          "label": "EQ High",
+          "def": 0.5
+        },
+        {
+          "id": "eq_low",
+          "label": "EQ Low",
+          "def": 0.5
+        },
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-ce-5.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ceb3": {
+      "name": "CEB-3 Bass Chorus",
+      "cat": "Modulation",
+      "inst": "bass",
+      "color": "#0a1840",
+      "knobs": [
+        {
+          "id": "elevel",
+          "label": "E.Level",
+          "def": 0.5
+        },
+        {
+          "id": "eq",
+          "label": "EQ",
+          "def": 0.5
+        },
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "toggle",
+          "opts": [
+            "Bass Chorus",
+            "Flanger"
+          ],
+          "def": "Bass Chorus"
+        }
+      ],
+      "layout": {
+        "image": "boss-ceb-3.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ch1": {
+      "name": "CH-1 Super Chorus",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#0a3048",
+      "knobs": [
+        {
+          "id": "elevel",
+          "label": "E.Level",
+          "def": 0.5
+        },
+        {
+          "id": "eq",
+          "label": "EQ",
+          "def": 0.5
+        },
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-ch-1.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "cp1x": {
+      "name": "CP-1X Compressor",
+      "cat": "Compression",
+      "inst": "guitar",
+      "color": "#500010",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "attack",
+          "label": "Attack",
+          "def": 0.5
+        },
+        {
+          "id": "release",
+          "label": "Release",
+          "def": 0.5
+        },
+        {
+          "id": "ratio",
+          "label": "Ratio",
+          "def": 0.5
+        },
+        {
+          "id": "input",
+          "label": "Input",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-cp-1x.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "dc2w": {
+      "name": "DC-2W Dimension C",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#0818a0",
+      "knobs": [],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "2+4"
+          ],
+          "def": "1"
+        },
+        {
+          "id": "stereo",
+          "label": "Output",
+          "type": "toggle",
+          "opts": [
+            "Mono",
+            "Stereo"
+          ],
+          "def": "Mono"
+        }
+      ],
+      "layout": {
+        "image": "boss-dc-2w.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "dd8": {
+      "name": "DD-8 Delay",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#604000",
+      "knobs": [
+        {
+          "id": "elevel",
+          "label": "E.Level",
+          "def": 0.4
+        },
+        {
+          "id": "fback",
+          "label": "F.Back",
+          "def": 0.3
+        },
+        {
+          "id": "dtime",
+          "label": "D.Time",
+          "def": 0.35
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "1ms",
+            "25ms",
+            "50ms",
+            "100ms",
+            "200ms",
+            "400ms",
+            "800ms",
+            "Hold",
+            "Rvs",
+            "Mod"
+          ],
+          "def": "1ms"
+        }
+      ],
+      "layout": {
+        "image": "boss-dd-8.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "dm101": {
+      "name": "DM-101 Delay",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#4a3000",
+      "knobs": [
+        {
+          "id": "elevel",
+          "label": "E.Level",
+          "def": 0.4
+        },
+        {
+          "id": "repeatrate",
+          "label": "Repeat Rate",
+          "def": 0.3
+        },
+        {
+          "id": "echo",
+          "label": "Echo",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-dm-101.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "dm2w": {
+      "name": "DM-2W Delay",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#503010",
+      "knobs": [
+        {
+          "id": "elevel",
+          "label": "E.Level",
+          "def": 0.4
+        },
+        {
+          "id": "repeatrate",
+          "label": "Repeat Rate",
+          "def": 0.3
+        },
+        {
+          "id": "echo",
+          "label": "Echo",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "toggle",
+          "opts": [
+            "Standard",
+            "Custom"
+          ],
+          "def": "Standard"
+        }
+      ],
+      "layout": {
+        "image": "boss-dm-2w.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ds1w": {
+      "name": "DS-1W Distortion",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#a83000",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "dist",
+          "label": "Dist",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "toggle",
+          "opts": [
+            "Standard",
+            "Custom"
+          ],
+          "def": "Standard"
+        }
+      ],
+      "layout": {
+        "image": "boss-ds-1w.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ds1x": {
+      "name": "DS-1X Distortion",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#982800",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "dist",
+          "label": "Dist",
+          "def": 0.6
+        }
+      ],
+      "layout": {
+        "image": "boss-ds-1x.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ds2": {
+      "name": "DS-2 Turbo Distortion",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#881800",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "dist",
+          "label": "Dist",
+          "def": 0.6
+        }
+      ],
+      "switches": [
+        {
+          "id": "turbo",
+          "label": "Turbo",
+          "type": "cycle",
+          "opts": [
+            "Off",
+            "I",
+            "II"
+          ],
+          "def": "Off"
+        }
+      ],
+      "layout": {
+        "image": "boss-ds-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "fz1w": {
+      "name": "FZ-1W Fuzz",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#583000",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "fuzz",
+          "label": "Fuzz",
+          "def": 0.6
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "toggle",
+          "opts": [
+            "Standard",
+            "Vintage"
+          ],
+          "def": "Standard"
+        }
+      ],
+      "layout": {
+        "image": "boss-fz-1w.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "fz5": {
+      "name": "FZ-5 Fuzz",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#502800",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "fuzz",
+          "label": "Fuzz",
+          "def": 0.6
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "F-1",
+            "F-2",
+            "OCT"
+          ],
+          "def": "F-1"
+        }
+      ],
+      "layout": {
+        "image": "boss-fz-5.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ge7": {
+      "name": "GE-7 Equalizer",
+      "cat": "Filter/EQ",
+      "inst": "guitar",
+      "color": "#280848",
+      "knobs": [
+        {
+          "id": "b100",
+          "label": "100Hz",
+          "def": 0.5
+        },
+        {
+          "id": "b200",
+          "label": "200Hz",
+          "def": 0.5
+        },
+        {
+          "id": "b400",
+          "label": "400Hz",
+          "def": 0.5
+        },
+        {
+          "id": "b800",
+          "label": "800Hz",
+          "def": 0.5
+        },
+        {
+          "id": "b1600",
+          "label": "1.6kHz",
+          "def": 0.5
+        },
+        {
+          "id": "b3200",
+          "label": "3.2kHz",
+          "def": 0.5
+        },
+        {
+          "id": "b6400",
+          "label": "6.4kHz",
+          "def": 0.5
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-ge-7.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "geb7": {
+      "name": "GEB-7 Bass Equalizer",
+      "cat": "Filter/EQ",
+      "inst": "bass",
+      "color": "#300858",
+      "knobs": [
+        {
+          "id": "b50",
+          "label": "50Hz",
+          "def": 0.5
+        },
+        {
+          "id": "b120",
+          "label": "120Hz",
+          "def": 0.5
+        },
+        {
+          "id": "b400",
+          "label": "400Hz",
+          "def": 0.5
+        },
+        {
+          "id": "b500",
+          "label": "500Hz",
+          "def": 0.5
+        },
+        {
+          "id": "b1500",
+          "label": "1.5kHz",
+          "def": 0.5
+        },
+        {
+          "id": "b10k",
+          "label": "10kHz",
+          "def": 0.5
+        },
+        {
+          "id": "b12k",
+          "label": "12kHz",
+          "def": 0.5
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-geb-7.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "hm2w": {
+      "name": "HM-2W Heavy Metal",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#081818",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "color_h",
+          "label": "Color H",
+          "def": 0.5
+        },
+        {
+          "id": "color_l",
+          "label": "Color L",
+          "def": 0.5
+        },
+        {
+          "id": "dist",
+          "label": "Dist",
+          "def": 0.7
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "toggle",
+          "opts": [
+            "Standard",
+            "Custom"
+          ],
+          "def": "Standard"
+        }
+      ],
+      "layout": {
+        "image": "boss-hm-2w.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ir2": {
+      "name": "IR-2 Amp & Cabinet",
+      "cat": "Amp/IR",
+      "inst": "guitar",
+      "color": "#181818",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "middle",
+          "label": "Middle",
+          "def": 0.5
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.4
+        }
+      ],
+      "switches": [
+        {
+          "id": "ch",
+          "label": "Channel",
+          "type": "cycle",
+          "opts": [
+            "Ch1",
+            "Ch2",
+            "Ch3"
+          ],
+          "def": "Ch1"
+        },
+        {
+          "id": "cab",
+          "label": "Cabinet",
+          "type": "cycle",
+          "opts": [
+            "Off",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "def": "Off"
+        }
+      ],
+      "layout": {
+        "image": "boss-ir-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "jb2": {
+      "name": "JB-2 Angry Driver",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#400818",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "BD-2",
+            "Series",
+            "Parallel",
+            "JHS",
+            "JHS→BD",
+            "BD→JHS"
+          ],
+          "def": "BD-2"
+        }
+      ],
+      "layout": {
+        "image": "boss-jb-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "lmb3": {
+      "name": "LMB-3 Bass Limiter Enhancer",
+      "cat": "Compression",
+      "inst": "bass",
+      "color": "#381828",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "ratio",
+          "label": "Ratio",
+          "def": 0.6
+        },
+        {
+          "id": "attack",
+          "label": "Attack",
+          "def": 0.3
+        },
+        {
+          "id": "release",
+          "label": "Release",
+          "def": 0.5
+        },
+        {
+          "id": "enhance",
+          "label": "Enhance",
+          "def": 0.3
+        }
+      ],
+      "layout": {
+        "image": "boss-lmb-3.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "md2": {
+      "name": "MD-2 Mega Distortion",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#5a0028",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "bottom",
+          "label": "Bottom",
+          "def": 0.5
+        },
+        {
+          "id": "dist",
+          "label": "Dist",
+          "def": 0.7
+        }
+      ],
+      "layout": {
+        "image": "boss-md-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ml2": {
+      "name": "ML-2 Metal Core",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#180828",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "low",
+          "label": "Low",
+          "def": 0.5
+        },
+        {
+          "id": "high",
+          "label": "High",
+          "def": 0.5
+        },
+        {
+          "id": "dist",
+          "label": "Dist",
+          "def": 0.7
+        }
+      ],
+      "layout": {
+        "image": "boss-ml-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "mo2": {
+      "name": "MO-2 Multi Overtone",
+      "cat": "Pitch/Mod",
+      "inst": "guitar",
+      "color": "#0a2030",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "balance",
+          "label": "Balance",
+          "def": 0.5
+        },
+        {
+          "id": "detune",
+          "label": "Detune",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Type 1",
+            "Type 2",
+            "Type 3"
+          ],
+          "def": "Type 1"
+        }
+      ],
+      "layout": {
+        "image": "boss-mo-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "mt2w": {
+      "name": "MT-2W Metal Zone",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#280858",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "low",
+          "label": "Low",
+          "def": 0.5
+        },
+        {
+          "id": "mid",
+          "label": "Mid",
+          "def": 0.5
+        },
+        {
+          "id": "high",
+          "label": "High",
+          "def": 0.5
+        },
+        {
+          "id": "dist",
+          "label": "Dist",
+          "def": 0.7
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "toggle",
+          "opts": [
+            "Standard",
+            "Custom"
+          ],
+          "def": "Standard"
+        }
+      ],
+      "layout": {
+        "image": "boss-mt-2w.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ns1x": {
+      "name": "NS-1X Noise Suppressor",
+      "cat": "Dynamics",
+      "inst": "guitar",
+      "color": "#282830",
+      "knobs": [
+        {
+          "id": "threshold",
+          "label": "Threshold",
+          "def": 0.3
+        },
+        {
+          "id": "release",
+          "label": "Release",
+          "def": 0.3
+        }
+      ],
+      "layout": {
+        "image": "boss-ns-1x.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ns2": {
+      "name": "NS-2 Noise Suppressor",
+      "cat": "Dynamics",
+      "inst": "guitar",
+      "color": "#202028",
+      "knobs": [
+        {
+          "id": "threshold",
+          "label": "Threshold",
+          "def": 0.3
+        },
+        {
+          "id": "decay",
+          "label": "Decay",
+          "def": 0.3
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "toggle",
+          "opts": [
+            "Mute",
+            "Gate"
+          ],
+          "def": "Mute"
+        }
+      ],
+      "layout": {
+        "image": "boss-ns-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "oc5": {
+      "name": "OC-5 Octave",
+      "cat": "Pitch/Mod",
+      "inst": "guitar",
+      "color": "#103818",
+      "knobs": [
+        {
+          "id": "direct",
+          "label": "Direct",
+          "def": 0.5
+        },
+        {
+          "id": "oct1",
+          "label": "Oct 1",
+          "def": 0.5
+        },
+        {
+          "id": "oct2",
+          "label": "Oct 2",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "range",
+          "label": "Range",
+          "type": "cycle",
+          "opts": [
+            "Guitar",
+            "Bass"
+          ],
+          "def": "Guitar"
+        },
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "toggle",
+          "opts": [
+            "Polyphonic",
+            "Vintage"
+          ],
+          "def": "Polyphonic"
+        }
+      ],
+      "layout": {
+        "image": "boss-oc-5.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "od1x": {
+      "name": "OD-1X Overdrive",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#a05000",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "image": "boss-od-1x.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "od3": {
+      "name": "OD-3 Overdrive",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#904800",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "image": "boss-od-3.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "odb3": {
+      "name": "ODB-3 Bass Overdrive",
+      "cat": "Gain/Drive",
+      "inst": "bass",
+      "color": "#682800",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "low",
+          "label": "Low",
+          "def": 0.5
+        },
+        {
+          "id": "high",
+          "label": "High",
+          "def": 0.5
+        },
+        {
+          "id": "balance",
+          "label": "Balance",
+          "def": 0.5
+        },
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-odb-3.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "os2": {
+      "name": "OS-2 Overdrive/Distortion",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#783800",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.5
+        },
+        {
+          "id": "color",
+          "label": "Color",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-os-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ph3": {
+      "name": "PH-3 Phase Shifter",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#301040",
+      "knobs": [
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        },
+        {
+          "id": "resonance",
+          "label": "Resonance",
+          "def": 0.4
+        },
+        {
+          "id": "step",
+          "label": "Step",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "4 Stage",
+            "8 Stage",
+            "10 Stage",
+            "12 Stage",
+            "Rise",
+            "Fall",
+            "P4",
+            "P8",
+            "P10",
+            "P12"
+          ],
+          "def": "4 Stage"
+        }
+      ],
+      "layout": {
+        "image": "boss-ph-3.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ps6": {
+      "name": "PS-6 Harmonist",
+      "cat": "Pitch/Mod",
+      "inst": "guitar",
+      "color": "#103028",
+      "knobs": [
+        {
+          "id": "balance",
+          "label": "Balance",
+          "def": 0.5
+        },
+        {
+          "id": "shift",
+          "label": "Shift",
+          "def": 0.5
+        },
+        {
+          "id": "key",
+          "label": "Key",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "S-Up",
+            "S-Dn",
+            "H-Up",
+            "H-Dn",
+            "Detune",
+            "Pitch"
+          ],
+          "def": "S-Up"
+        }
+      ],
+      "layout": {
+        "image": "boss-ps-6.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "px1": {
+      "name": "PX-1 Polyphonic Octave",
+      "cat": "Pitch/Mod",
+      "inst": "guitar",
+      "color": "#0a1830",
+      "knobs": [
+        {
+          "id": "direct",
+          "label": "Direct",
+          "def": 0.5
+        },
+        {
+          "id": "oct1",
+          "label": "Oct 1",
+          "def": 0.5
+        },
+        {
+          "id": "oct2",
+          "label": "Oct 2",
+          "def": 0.5
+        },
+        {
+          "id": "oct_up",
+          "label": "Oct Up",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-px-1.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "re2": {
+      "name": "RE-2 Space Echo",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#3a2808",
+      "knobs": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "def": 0.5
+        },
+        {
+          "id": "rate",
+          "label": "Repeat Rate",
+          "def": 0.35
+        },
+        {
+          "id": "intensity",
+          "label": "Intensity",
+          "def": 0.3
+        },
+        {
+          "id": "echo",
+          "label": "Echo Level",
+          "def": 0.4
+        }
+      ],
+      "switches": [
+        {
+          "id": "wow",
+          "label": "Wow/Flutter",
+          "type": "toggle",
+          "opts": [
+            "Off",
+            "On"
+          ],
+          "def": "Off"
+        }
+      ],
+      "layout": {
+        "image": "boss-re-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "rt2": {
+      "name": "RT-2 Rotary",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#1a1048",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "balance",
+          "label": "Balance",
+          "def": 0.5
+        },
+        {
+          "id": "slow",
+          "label": "Slow",
+          "def": 0.5
+        },
+        {
+          "id": "fast",
+          "label": "Fast",
+          "def": 0.5
+        },
+        {
+          "id": "rise",
+          "label": "Rise",
+          "def": 0.5
+        },
+        {
+          "id": "fall",
+          "label": "Fall",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "speed",
+          "label": "Speed",
+          "type": "toggle",
+          "opts": [
+            "Slow",
+            "Fast"
+          ],
+          "def": "Slow"
+        },
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Rotary",
+            "Vibe",
+            "Chop"
+          ],
+          "def": "Rotary"
+        }
+      ],
+      "layout": {
+        "image": "boss-rt-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "sde3": {
+      "name": "SDE-3 Digital Delay",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#304010",
+      "knobs": [
+        {
+          "id": "elevel",
+          "label": "E.Level",
+          "def": 0.4
+        },
+        {
+          "id": "fback",
+          "label": "F.Back",
+          "def": 0.3
+        },
+        {
+          "id": "dtime",
+          "label": "D.Time",
+          "def": 0.35
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "25ms",
+            "50ms",
+            "100ms",
+            "200ms"
+          ],
+          "def": "25ms"
+        }
+      ],
+      "layout": {
+        "image": "boss-sde-3.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "sl2": {
+      "name": "SL-2 Slicer",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#101840",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "attack",
+          "label": "Attack",
+          "def": 0.5
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Pattern 1",
+            "Pattern 2",
+            "Pattern 3",
+            "Pattern 4",
+            "Pattern 5",
+            "Pattern 6"
+          ],
+          "def": "Pattern 1"
+        }
+      ],
+      "layout": {
+        "image": "boss-sl-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "st2": {
+      "name": "ST-2 Power Stack",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#2a0838",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "mid",
+          "label": "Middle",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.6
+        }
+      ],
+      "layout": {
+        "image": "boss-st-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "sy1": {
+      "name": "SY-1 Synthesizer",
+      "cat": "Synth",
+      "inst": "guitar",
+      "color": "#200838",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "synth",
+          "label": "Synth Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "sens",
+          "label": "Sens",
+          "def": 0.6
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Lead",
+            "Pad",
+            "Chord",
+            "Arp",
+            "Bass",
+            "SFX 1",
+            "SFX 2",
+            "SFX 3",
+            "SFX 4",
+            "SFX 5"
+          ],
+          "def": "Lead"
+        }
+      ],
+      "layout": {
+        "image": "boss-sy-1.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "te2": {
+      "name": "TE-2 Tera Echo",
+      "cat": "Reverb",
+      "inst": "guitar",
+      "color": "#082a20",
+      "knobs": [
+        {
+          "id": "elevel",
+          "label": "E.Level",
+          "def": 0.4
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "time",
+          "label": "Time",
+          "def": 0.4
+        },
+        {
+          "id": "stime",
+          "label": "S-Time",
+          "def": 0.3
+        }
+      ],
+      "switches": [
+        {
+          "id": "direct",
+          "label": "Direct",
+          "type": "toggle",
+          "opts": [
+            "On",
+            "Off"
+          ],
+          "def": "On"
+        }
+      ],
+      "layout": {
+        "image": "boss-te-2.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "tu3s": {
+      "name": "TU-3S Chromatic Tuner",
+      "cat": "Tuner",
+      "inst": "guitar",
+      "color": "#101010",
+      "knobs": [],
+      "layout": {
+        "image": "boss-tu-3s.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "tu3w": {
+      "name": "TU-3W Chromatic Tuner",
+      "cat": "Tuner",
+      "inst": "guitar",
+      "color": "#141414",
+      "knobs": [],
+      "layout": {
+        "image": "boss-tu-3w.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "vb2w": {
+      "name": "VB-2W Vibrato",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#08183a",
+      "knobs": [
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        },
+        {
+          "id": "risetime",
+          "label": "Rise Time",
+          "def": 0.4
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Latch",
+            "Unlatch",
+            "Bypass"
+          ],
+          "def": "Latch"
+        },
+        {
+          "id": "custom",
+          "label": "Circuit",
+          "type": "toggle",
+          "opts": [
+            "Standard",
+            "Vintage"
+          ],
+          "def": "Standard"
+        }
+      ],
+      "layout": {
+        "image": "boss-vb-2w.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "vo1": {
+      "name": "VO-1 Vocoder",
+      "cat": "Synth",
+      "inst": "guitar",
+      "color": "#180830",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "formant",
+          "label": "Formant",
+          "def": 0.5
+        },
+        {
+          "id": "pitch",
+          "label": "Pitch",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Vocoder",
+            "Voice",
+            "Vintage"
+          ],
+          "def": "Vocoder"
+        }
+      ],
+      "layout": {
+        "image": "boss-vo-1.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "rc1": {
+      "name": "RC-1 Loop Station",
+      "cat": "Routing",
+      "inst": "guitar",
+      "color": "#1a3018",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.7
+        }
+      ],
+      "layout": {
+        "image": "boss-rc-1.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "rc5": {
+      "name": "RC-5 Loop Station",
+      "cat": "Routing",
+      "inst": "guitar",
+      "color": "#1a3820",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.7
+        },
+        {
+          "id": "rhythm",
+          "label": "Rhythm Level",
+          "def": 0.4
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Single",
+            "Multi",
+            "Phrase"
+          ],
+          "def": "Single"
+        }
+      ],
+      "layout": {
+        "image": "boss-rc-5.jpg",
+        "controls": {},
+        "widthMm": 73,
+        "heightMm": 129,
+        "removeWhiteBg": true
+      }
+    },
+    "ad10": {
+      "name": "AD-10 Acoustic Designer",
+      "cat": "Modeling",
+      "inst": "guitar",
+      "color": "#283818",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "mid",
+          "label": "Middle",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.5
+        },
+        {
+          "id": "presence",
+          "label": "Presence",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Acoustic",
+            "Enhanced",
+            "Standard",
+            "Ambience"
+          ],
+          "def": "Acoustic"
+        }
+      ],
+      "layout": {
+        "image": "boss-ad-10.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "eq200": {
+      "name": "EQ-200 Equalizer",
+      "cat": "Filter/EQ",
+      "inst": "guitar",
+      "color": "#280050",
+      "knobs": [
+        {
+          "id": "b100",
+          "label": "100Hz",
+          "def": 0.5
+        },
+        {
+          "id": "b200",
+          "label": "200Hz",
+          "def": 0.5
+        },
+        {
+          "id": "b400",
+          "label": "400Hz",
+          "def": 0.5
+        },
+        {
+          "id": "b800",
+          "label": "800Hz",
+          "def": 0.5
+        },
+        {
+          "id": "b1600",
+          "label": "1.6k",
+          "def": 0.5
+        },
+        {
+          "id": "b3200",
+          "label": "3.2k",
+          "def": 0.5
+        },
+        {
+          "id": "b6400",
+          "label": "6.4k",
+          "def": 0.5
+        },
+        {
+          "id": "b12800",
+          "label": "12.8k",
+          "def": 0.5
+        },
+        {
+          "id": "b16000",
+          "label": "16k",
+          "def": 0.5
+        },
+        {
+          "id": "level_a",
+          "label": "Level A",
+          "def": 0.5
+        },
+        {
+          "id": "level_b",
+          "label": "Level B",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-eq-200.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "ir200": {
+      "name": "IR-200 Amp & IR Cabinet",
+      "cat": "Amp/IR",
+      "inst": "guitar",
+      "color": "#151515",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "middle",
+          "label": "Middle",
+          "def": 0.5
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "ch",
+          "label": "Channel",
+          "type": "cycle",
+          "opts": [
+            "Ch1",
+            "Ch2",
+            "Ch3",
+            "Ch4"
+          ],
+          "def": "Ch1"
+        }
+      ],
+      "layout": {
+        "image": "boss-ir-200.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "dd200": {
+      "name": "DD-200 Digital Delay",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#504000",
+      "knobs": [
+        {
+          "id": "time",
+          "label": "Time",
+          "def": 0.35
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.4
+        },
+        {
+          "id": "fback",
+          "label": "Repeat",
+          "def": 0.3
+        },
+        {
+          "id": "filter",
+          "label": "Filter",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Digital",
+            "Analog",
+            "Mod",
+            "Revrse",
+            "Tape",
+            "Warm",
+            "Dual",
+            "Shimmer",
+            "Tera",
+            "SFX"
+          ],
+          "def": "Digital"
+        }
+      ],
+      "layout": {
+        "image": "boss-dd-200.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "dd500": {
+      "name": "DD-500 Digital Delay",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#403800",
+      "knobs": [
+        {
+          "id": "time",
+          "label": "Time",
+          "def": 0.35
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.4
+        },
+        {
+          "id": "fback",
+          "label": "Feedback",
+          "def": 0.3
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Digital",
+            "Tape",
+            "Analog",
+            "Mod",
+            "Reverse",
+            "Shimmer",
+            "Dual",
+            "Warp"
+          ],
+          "def": "Digital"
+        }
+      ],
+      "layout": {
+        "image": "boss-dd-500.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "md200": {
+      "name": "MD-200 Modulation",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#0a1840",
+      "knobs": [
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Chorus",
+            "Flanger",
+            "Phaser",
+            "Tremolo",
+            "Vibrato",
+            "Pan",
+            "Rotary",
+            "Detuner",
+            "Pitch Shift",
+            "Harmonist"
+          ],
+          "def": "Chorus"
+        }
+      ],
+      "layout": {
+        "image": "boss-md-200.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "md500": {
+      "name": "MD-500 Modulation",
+      "cat": "Modulation",
+      "inst": "guitar",
+      "color": "#081438",
+      "knobs": [
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "param1",
+          "label": "Param 1",
+          "def": 0.5
+        },
+        {
+          "id": "param2",
+          "label": "Param 2",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Chorus",
+            "Flanger",
+            "Phaser",
+            "Tremolo",
+            "Vibrato",
+            "Pan",
+            "Rotary",
+            "Detuner",
+            "Pitch",
+            "Harmonist",
+            "Slicer",
+            "Vib"
+          ],
+          "def": "Chorus"
+        }
+      ],
+      "layout": {
+        "image": "boss-md-500.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "ms3": {
+      "name": "MS-3 Multi Effects Switcher",
+      "cat": "Routing",
+      "inst": "guitar",
+      "color": "#0a1020",
+      "knobs": [
+        {
+          "id": "level1",
+          "label": "Loop 1",
+          "def": 0.5
+        },
+        {
+          "id": "level2",
+          "label": "Loop 2",
+          "def": 0.5
+        },
+        {
+          "id": "level3",
+          "label": "Loop 3",
+          "def": 0.5
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-ms-3.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "rc500": {
+      "name": "RC-500 Loop Station",
+      "cat": "Routing",
+      "inst": "guitar",
+      "color": "#182818",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.7
+        },
+        {
+          "id": "rhythm",
+          "label": "Rhythm Level",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "image": "boss-rc-500.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "rc600": {
+      "name": "RC-600 Loop Station",
+      "cat": "Routing",
+      "inst": "guitar",
+      "color": "#142014",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Master Level",
+          "def": 0.7
+        }
+      ],
+      "layout": {
+        "image": "boss-rc-600.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "rc10r": {
+      "name": "RC-10R Rhythm Loop Station",
+      "cat": "Routing",
+      "inst": "guitar",
+      "color": "#101e10",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Loop Level",
+          "def": 0.7
+        },
+        {
+          "id": "rhythm",
+          "label": "Rhythm Level",
+          "def": 0.4
+        },
+        {
+          "id": "tempo",
+          "label": "Tempo",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "image": "boss-rc-10r.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "re202": {
+      "name": "RE-202 Space Echo",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#2a1c08",
+      "knobs": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "def": 0.5
+        },
+        {
+          "id": "rate",
+          "label": "Repeat Rate",
+          "def": 0.35
+        },
+        {
+          "id": "intensity",
+          "label": "Intensity",
+          "def": 0.3
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "echo",
+          "label": "Echo Level",
+          "def": 0.4
+        }
+      ],
+      "switches": [
+        {
+          "id": "wow",
+          "label": "Wow/Flutter",
+          "type": "toggle",
+          "opts": [
+            "Off",
+            "On"
+          ],
+          "def": "Off"
+        },
+        {
+          "id": "spring",
+          "label": "Spring Rev",
+          "type": "toggle",
+          "opts": [
+            "Off",
+            "On"
+          ],
+          "def": "Off"
+        }
+      ],
+      "layout": {
+        "image": "boss-re-202.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "rv200": {
+      "name": "RV-200 Reverb",
+      "cat": "Reverb",
+      "inst": "guitar",
+      "color": "#083818",
+      "knobs": [
+        {
+          "id": "time",
+          "label": "Time",
+          "def": 0.4
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.4
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "predelay",
+          "label": "Pre Delay",
+          "def": 0.2
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Room",
+            "Hall",
+            "Church",
+            "Plate",
+            "Spring",
+            "Mod",
+            "Shimmer",
+            "Tideway",
+            "Gated",
+            "SFX"
+          ],
+          "def": "Room"
+        }
+      ],
+      "layout": {
+        "image": "boss-rv-200.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "rv500": {
+      "name": "RV-500 Reverb",
+      "cat": "Reverb",
+      "inst": "guitar",
+      "color": "#063014",
+      "knobs": [
+        {
+          "id": "time",
+          "label": "Time",
+          "def": 0.4
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.4
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "predelay",
+          "label": "Pre Delay",
+          "def": 0.2
+        },
+        {
+          "id": "param1",
+          "label": "Param 1",
+          "def": 0.5
+        },
+        {
+          "id": "param2",
+          "label": "Param 2",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Room",
+            "Hall",
+            "Cathedral",
+            "Plate",
+            "Spring",
+            "Shimmer",
+            "Mod",
+            "SFX 1",
+            "SFX 2",
+            "SFX 3"
+          ],
+          "def": "Room"
+        }
+      ],
+      "layout": {
+        "image": "boss-rv-500.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "sde3000d": {
+      "name": "SDE-3000D Dual Digital Delay",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#1c2808",
+      "knobs": [
+        {
+          "id": "time_a",
+          "label": "Time A",
+          "def": 0.35
+        },
+        {
+          "id": "fback_a",
+          "label": "Repeat A",
+          "def": 0.3
+        },
+        {
+          "id": "time_b",
+          "label": "Time B",
+          "def": 0.35
+        },
+        {
+          "id": "fback_b",
+          "label": "Repeat B",
+          "def": 0.3
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "image": "boss-sde-3000d.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "sde3000evh": {
+      "name": "SDE-3000EVH",
+      "cat": "Delay",
+      "inst": "guitar",
+      "color": "#0a1808",
+      "knobs": [
+        {
+          "id": "time_a",
+          "label": "Time A",
+          "def": 0.35
+        },
+        {
+          "id": "fback_a",
+          "label": "Repeat A",
+          "def": 0.3
+        },
+        {
+          "id": "time_b",
+          "label": "Time B",
+          "def": 0.35
+        },
+        {
+          "id": "fback_b",
+          "label": "Repeat B",
+          "def": 0.3
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "image": "boss-sde-3000evh.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "sy200": {
+      "name": "SY-200 Synthesizer",
+      "cat": "Synth",
+      "inst": "guitar",
+      "color": "#180838",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "synth",
+          "label": "Synth Mix",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "param1",
+          "label": "Param 1",
+          "def": 0.5
+        },
+        {
+          "id": "param2",
+          "label": "Param 2",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Lead",
+            "Pad",
+            "Chord",
+            "Bass",
+            "SFX"
+          ],
+          "def": "Lead"
+        }
+      ],
+      "layout": {
+        "image": "boss-sy-200.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "sy300": {
+      "name": "SY-300 Guitar Synthesizer",
+      "cat": "Synth",
+      "inst": "guitar",
+      "color": "#100628",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "osc1",
+          "label": "OSC 1",
+          "def": 0.5
+        },
+        {
+          "id": "osc2",
+          "label": "OSC 2",
+          "def": 0.5
+        },
+        {
+          "id": "osc3",
+          "label": "OSC 3",
+          "def": 0.5
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-sy-300.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "ve8": {
+      "name": "VE-8 Acoustic Singer",
+      "cat": "Modeling",
+      "inst": "guitar",
+      "color": "#203018",
+      "knobs": [
+        {
+          "id": "guitar",
+          "label": "Guitar",
+          "def": 0.5
+        },
+        {
+          "id": "mic",
+          "label": "Mic",
+          "def": 0.5
+        },
+        {
+          "id": "reverb",
+          "label": "Reverb",
+          "def": 0.5
+        },
+        {
+          "id": "harmony",
+          "label": "Harmony",
+          "def": 0.5
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "boss-ve-8.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "xs1": {
+      "name": "XS-1 Expression Switch",
+      "cat": "Routing",
+      "inst": "guitar",
+      "color": "#1a1a1a",
+      "knobs": [],
+      "layout": {
+        "image": "boss-xs-1.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    },
+    "xs100": {
+      "name": "XS-100 Foot Switch",
+      "cat": "Routing",
+      "inst": "guitar",
+      "color": "#141414",
+      "knobs": [],
+      "layout": {
+        "image": "boss-xs-100.jpg",
+        "controls": {},
+        "removeWhiteBg": true
+      }
+    }
+  }
+}

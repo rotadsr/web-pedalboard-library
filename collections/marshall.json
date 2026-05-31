@@ -1,0 +1,219 @@
+{
+  "brand": "Marshall",
+  "amps": {
+    "jcm800": {
+      "name": "JCM800 2203",
+      "color": "#0f1009",
+      "knobs": [
+        {
+          "id": "preamp",
+          "label": "Preamp",
+          "def": 0.5
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "mid",
+          "label": "Mid",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.6
+        },
+        {
+          "id": "presence",
+          "label": "Presence",
+          "def": 0.5
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "def": 0.5
+        }
+      ]
+    },
+    "jubilee": {
+      "name": "Silver Jubilee 2525H",
+      "color": "#10100f",
+      "knobs": [
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.5
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "mid",
+          "label": "Mid",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.6
+        },
+        {
+          "id": "presence",
+          "label": "Presence",
+          "def": 0.5
+        },
+        {
+          "id": "vol",
+          "label": "Volume",
+          "def": 0.5
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "marshall-2525h-silver-jubilee.png",
+        "controls": {
+          "in": {
+            "x": 0.818,
+            "y": 0.793,
+            "type": "port-in",
+            "label": "Input"
+          },
+          "presence": {
+            "x": 0.391,
+            "y": 0.805,
+            "label": "PRESENCE"
+          },
+          "bass": {
+            "x": 0.451,
+            "y": 0.811,
+            "label": "BASS"
+          },
+          "middle": {
+            "x": 0.512,
+            "y": 0.808,
+            "label": "MIDDLE"
+          },
+          "treble": {
+            "x": 0.574,
+            "y": 0.808,
+            "label": "TREBLE"
+          },
+          "output_master": {
+            "x": 0.637,
+            "y": 0.808,
+            "label": "OUTPUT MASTER"
+          },
+          "lead_master": {
+            "x": 0.696,
+            "y": 0.808,
+            "label": "LEAD MASTER"
+          },
+          "input_gain": {
+            "x": 0.76,
+            "y": 0.808,
+            "label": "INPUT GAIN"
+          }
+        },
+        "widthMm": 510,
+        "heightMm": 232,
+        "removeWhiteBg": true
+      }
+    },
+    "dsl20": {
+      "name": "DSL20H",
+      "color": "#0a0a0a",
+      "knobs": [
+        {
+          "id": "cgain",
+          "label": "Classic Gn",
+          "def": 0.4
+        },
+        {
+          "id": "cvol",
+          "label": "Classic Vl",
+          "def": 0.5
+        },
+        {
+          "id": "ugain",
+          "label": "Ultra Gn",
+          "def": 0.5
+        },
+        {
+          "id": "uvol",
+          "label": "Ultra Vl",
+          "def": 0.5
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "mid",
+          "label": "Mid",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.6
+        },
+        {
+          "id": "presence",
+          "label": "Presence",
+          "def": 0.5
+        },
+        {
+          "id": "resonance",
+          "label": "Resonance",
+          "def": 0.5
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "def": 0.5
+        }
+      ],
+      "knobRows": [
+        {
+          "label": "Classic"
+        },
+        [
+          "cgain",
+          "cvol"
+        ],
+        {
+          "label": "Ultra"
+        },
+        [
+          "ugain",
+          "uvol"
+        ],
+        {
+          "label": "EQ"
+        },
+        [
+          "bass",
+          "mid",
+          "treble",
+          "presence",
+          "resonance"
+        ],
+        {
+          "label": "Master"
+        },
+        [
+          "master"
+        ]
+      ]
+    }
+  }
+}

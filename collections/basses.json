@@ -1,0 +1,141 @@
+{
+  "brand": "Basses",
+  "basses": {
+    "fender_p_bass": {
+      "name": "Precision Bass",
+      "brand": "Fender",
+      "color": "#1a0e04",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["P-Bass"], "def": "P-Bass" }
+      ]
+    },
+    "fender_j_bass": {
+      "name": "Jazz Bass",
+      "brand": "Fender",
+      "color": "#04121a",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["Bridge", "Both", "Neck"], "def": "Both" }
+      ]
+    },
+    "fender_j_bass_v": {
+      "name": "Jazz Bass V",
+      "brand": "Fender",
+      "color": "#04121a",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["Bridge", "Both", "Neck"], "def": "Both" }
+      ]
+    },
+    "fender_aerodyne": {
+      "name": "Aerodyne Jazz Bass",
+      "brand": "Fender",
+      "color": "#080808",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["P-Bass", "Both", "J-Bass"], "def": "Both" }
+      ]
+    },
+    "musicman_stingray": {
+      "name": "StingRay",
+      "brand": "Ernie Ball Music Man",
+      "color": "#1a0a00",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["HB"], "def": "HB" }
+      ]
+    },
+    "musicman_stingray5": {
+      "name": "StingRay 5",
+      "brand": "Ernie Ball Music Man",
+      "color": "#1a0a00",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["HB"], "def": "HB" }
+      ]
+    },
+    "musicman_sterling": {
+      "name": "Sterling",
+      "brand": "Ernie Ball Music Man",
+      "color": "#0a1a0a",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["HB Series", "Single", "HB Parallel"], "def": "HB Series" }
+      ]
+    },
+    "gibson_thunderbird": {
+      "name": "Thunderbird",
+      "brand": "Gibson",
+      "color": "#1a0808",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["Bridge", "Both", "Neck"], "def": "Bridge" }
+      ]
+    },
+    "gibson_sg_bass": {
+      "name": "SG Bass",
+      "brand": "Gibson",
+      "color": "#320000",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["Bridge", "Both", "Neck"], "def": "Bridge" }
+      ]
+    },
+    "rickenbacker_4003": {
+      "name": "4003",
+      "brand": "Rickenbacker",
+      "color": "#1a0a00",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["Bridge", "Both", "Neck"], "def": "Both" }
+      ]
+    },
+    "rickenbacker_4003s": {
+      "name": "4003S",
+      "brand": "Rickenbacker",
+      "color": "#0a0a18",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["Bridge", "Both", "Neck"], "def": "Both" }
+      ]
+    },
+    "warwick_streamer_stage1": {
+      "name": "Streamer Stage I",
+      "brand": "Warwick",
+      "color": "#2a1800",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["Bridge", "Both", "Neck"], "def": "Both" }
+      ]
+    },
+    "warwick_thumb_bo": {
+      "name": "Thumb BO",
+      "brand": "Warwick",
+      "color": "#3a1e00",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["Bridge", "Both", "Neck"], "def": "Bridge" }
+      ]
+    },
+    "spector_ns2": {
+      "name": "NS-2",
+      "brand": "Spector",
+      "color": "#100820",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["Bridge", "Both", "Neck"], "def": "Both" }
+      ]
+    },
+    "lakland_5594": {
+      "name": "55-94",
+      "brand": "Lakland",
+      "color": "#0a1a10",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["Bridge MM", "Both", "Neck J"], "def": "Both" }
+      ]
+    },
+    "ibanez_sr500": {
+      "name": "SR500",
+      "brand": "Ibanez",
+      "color": "#0a0a1a",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["Bridge", "Both", "Neck"], "def": "Both" }
+      ]
+    },
+    "sandberg_california_tm": {
+      "name": "California TM",
+      "brand": "Sandberg",
+      "color": "#1a1004",
+      "switches": [
+        { "id": "pickup", "label": "Pickup", "type": "cycle", "opts": ["P-Bass", "Both", "J-Bass"], "def": "Both" }
+      ]
+    }
+  }
+}

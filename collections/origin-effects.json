@@ -1,0 +1,673 @@
+{
+  "brand": "Origin Effects",
+  "pedals": {
+    "cali76": {
+      "name": "Cali76 FET Compressor",
+      "cat": "Compression",
+      "inst": "guitar",
+      "color": "#404040",
+      "knobs": [
+        {
+          "id": "input",
+          "label": "Input",
+          "def": 0.5
+        },
+        {
+          "id": "ratio",
+          "label": "Ratio",
+          "def": 0.6
+        },
+        {
+          "id": "attack",
+          "label": "Attack",
+          "def": 0.3
+        },
+        {
+          "id": "release",
+          "label": "Release",
+          "def": 0.4
+        },
+        {
+          "id": "output",
+          "label": "Output",
+          "def": 0.5
+        }
+      ]
+    },
+    "cali76stacked": {
+      "name": "Cali76 Stacked",
+      "cat": "Compression",
+      "inst": "guitar",
+      "color": "#3a3838",
+      "knobs": [
+        {
+          "id": "in1",
+          "label": "Input 1",
+          "def": 0.5
+        },
+        {
+          "id": "ratio1",
+          "label": "Ratio 1",
+          "def": 0.6
+        },
+        {
+          "id": "atk1",
+          "label": "Attack 1",
+          "def": 0.3
+        },
+        {
+          "id": "in2",
+          "label": "Input 2",
+          "def": 0.5
+        },
+        {
+          "id": "ratio2",
+          "label": "Ratio 2",
+          "def": 0.6
+        },
+        {
+          "id": "atk2",
+          "label": "Attack 2",
+          "def": 0.3
+        },
+        {
+          "id": "output",
+          "label": "Output",
+          "def": 0.5
+        }
+      ],
+      "knobRows": [
+        [
+          "in1",
+          "ratio1",
+          "atk1"
+        ],
+        [
+          "in2",
+          "ratio2",
+          "atk2"
+        ],
+        [
+          "output"
+        ]
+      ],
+      "switches": [
+        {
+          "id": "mode",
+          "label": "Mode",
+          "type": "cycle",
+          "opts": [
+            "Series",
+            "Parallel",
+            "Blend"
+          ],
+          "def": "Series"
+        }
+      ],
+      "layout": {
+        "image": "origin-effects-cali76-stacked-compressor.png",
+        "controls": {
+          "dry": {
+            "x": 0.205,
+            "y": 0.178,
+            "label": "DRY",
+            "knobSize": 0.38
+          },
+          "out": {
+            "x": 0.492,
+            "y": 0.178,
+            "label": "OUT",
+            "knobSize": 0.38
+          },
+          "in": {
+            "x": 0.779,
+            "y": 0.178,
+            "label": "IN",
+            "knobSize": 0.38
+          },
+          "attrel_2": {
+            "x": 0.209,
+            "y": 0.399,
+            "label": "ATT/REL 2",
+            "knobSize": 0.38
+          },
+          "thru": {
+            "x": 0.496,
+            "y": 0.399,
+            "label": "THRU",
+            "knobSize": 0.38
+          },
+          "attrel_1": {
+            "x": 0.787,
+            "y": 0.403,
+            "label": "ATT/REL 1",
+            "knobSize": 0.38
+          },
+          "on_off": {
+            "x": 0.508,
+            "y": 0.874,
+            "type": "fs",
+            "label": "ON OFF"
+          }
+        },
+        "widthMm": 64,
+        "heightMm": 124,
+        "removeWhiteBg": true
+      }
+    },
+    "cali76bass": {
+      "name": "Cali76 Bass Compressor",
+      "cat": "Compression",
+      "inst": "bass",
+      "color": "#303035",
+      "knobs": [
+        {
+          "id": "input",
+          "label": "Input",
+          "def": 0.5
+        },
+        {
+          "id": "ratio",
+          "label": "Ratio",
+          "def": 0.6
+        },
+        {
+          "id": "attack",
+          "label": "Attack",
+          "def": 0.3
+        },
+        {
+          "id": "release",
+          "label": "Release",
+          "def": 0.4
+        },
+        {
+          "id": "output",
+          "label": "Output",
+          "def": 0.5
+        }
+      ],
+      "switches": [
+        {
+          "id": "hpf",
+          "label": "HPF",
+          "type": "toggle",
+          "opts": [
+            "off",
+            "on"
+          ],
+          "def": "off"
+        }
+      ]
+    },
+    "revivaldrive": {
+      "name": "RevivalDRIVE Compact",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#1e1e1e",
+      "knobs": [
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.6
+        },
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.4
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.6
+        }
+      ],
+      "switches": [
+        {
+          "id": "voice",
+          "label": "Voice",
+          "type": "cycle",
+          "opts": [
+            "Clean",
+            "Crunch",
+            "Drive"
+          ],
+          "def": "Crunch"
+        }
+      ]
+    },
+    "rdhotrod": {
+      "name": "RD Compact Hot Rod",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#2a0808",
+      "knobs": [
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.6
+        },
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        }
+      ]
+    },
+    "deluxe61": {
+      "name": "DELUXE61",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#3a2808",
+      "knobs": [
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.6
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.3
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        },
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        }
+      ]
+    },
+    "magma57": {
+      "name": "MAGMA57",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#2a1808",
+      "knobs": [
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.6
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.3
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "depth",
+          "label": "Depth",
+          "def": 0.5
+        },
+        {
+          "id": "rate",
+          "label": "Rate",
+          "def": 0.4
+        }
+      ]
+    },
+    "dcxboost": {
+      "name": "DCX Boost",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#181828",
+      "knobs": [
+        {
+          "id": "boost",
+          "label": "Boost",
+          "def": 0.5
+        }
+      ]
+    },
+    "meqdriver": {
+      "name": "M-EQ Driver",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#1a1a1a",
+      "knobs": [
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        },
+        {
+          "id": "low",
+          "label": "Low",
+          "def": 0.5
+        },
+        {
+          "id": "mid",
+          "label": "Mid",
+          "def": 0.5
+        },
+        {
+          "id": "high",
+          "label": "High",
+          "def": 0.5
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.3
+        }
+      ]
+    },
+    "halcyonblue": {
+      "name": "Halcyon Blue Overdrive",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#0a1830",
+      "knobs": [
+        {
+          "id": "output",
+          "label": "Output",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.3
+        }
+      ]
+    },
+    "halcyongold": {
+      "name": "Halcyon Gold Overdrive",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#3a2800",
+      "knobs": [
+        {
+          "id": "output",
+          "label": "Output",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.4
+        }
+      ],
+      "layout": {
+        "image": "origin-effects-halcyon-gold-overdrive.png",
+        "controls": {
+          "level": {
+            "x": 0.235,
+            "y": 0.182,
+            "label": "LEVEL",
+            "knobSize": 0.38
+          },
+          "drive": {
+            "x": 0.769,
+            "y": 0.186,
+            "label": "DRIVE",
+            "knobSize": 0.38
+          },
+          "dry": {
+            "x": 0.231,
+            "y": 0.405,
+            "label": "DRY",
+            "knobSize": 0.38
+          },
+          "tone": {
+            "x": 0.769,
+            "y": 0.403,
+            "label": "TONE",
+            "knobSize": 0.38
+          },
+          "adapt": {
+            "x": 0.5,
+            "y": 0.248,
+            "type": "toggle",
+            "label": "ADAPT",
+            "opts": [
+              "O",
+              "I",
+              "II"
+            ],
+            "positions": 3
+          },
+          "voice": {
+            "x": 0.496,
+            "y": 0.329,
+            "type": "toggle",
+            "label": "VOICE",
+            "opts": [
+              "KLM",
+              "MOD"
+            ]
+          },
+          "on_off": {
+            "x": 0.496,
+            "y": 0.876,
+            "type": "fs",
+            "label": "ON OFF"
+          },
+          "in": {
+            "x": 0.75,
+            "y": 0.022,
+            "type": "port-in",
+            "label": "Input"
+          },
+          "out": {
+            "x": 0.243,
+            "y": 0.028,
+            "type": "port-out",
+            "label": "Output"
+          }
+        },
+        "widthMm": 64,
+        "heightMm": 124,
+        "removeWhiteBg": true
+      }
+    },
+    "halcyongreen": {
+      "name": "Halcyon Green Overdrive",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#0a2808",
+      "knobs": [
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.5
+        },
+        {
+          "id": "tone",
+          "label": "Tone",
+          "def": 0.5
+        },
+        {
+          "id": "level",
+          "label": "Level",
+          "def": 0.5
+        }
+      ]
+    },
+    "deluxe55": {
+      "name": "Deluxe55",
+      "cat": "Gain/Drive",
+      "inst": "guitar",
+      "color": "#302010",
+      "knobs": [
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.5
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.4
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.6
+        }
+      ]
+    },
+    "bassrigfifteen": {
+      "name": "Bassrig Fifteen",
+      "cat": "Bass",
+      "inst": "bass",
+      "color": "#0a0a1a",
+      "knobs": [
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.5
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "mid",
+          "label": "Mid",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.3
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "def": 0.5
+        }
+      ],
+      "knobRows": [
+        [
+          "volume",
+          "bass",
+          "mid"
+        ],
+        [
+          "treble",
+          "drive",
+          "master"
+        ]
+      ]
+    },
+    "bassrigvintage": {
+      "name": "Bassrig Super Vintage",
+      "cat": "Bass",
+      "inst": "bass",
+      "color": "#0a100a",
+      "knobs": [
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.5
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "mid",
+          "label": "Mid",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.5
+        },
+        {
+          "id": "drive",
+          "label": "Drive",
+          "def": 0.3
+        }
+      ]
+    },
+    "bassrig64": {
+      "name": "Bassrig '64 Black Panel",
+      "cat": "Bass",
+      "inst": "bass",
+      "color": "#0e0e0e",
+      "knobs": [
+        {
+          "id": "volume",
+          "label": "Volume",
+          "def": 0.5
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "mid",
+          "label": "Mid",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.5
+        }
+      ]
+    },
+    "dcxbass": {
+      "name": "DCX Bass",
+      "cat": "Bass",
+      "inst": "bass",
+      "color": "#0a0a1c",
+      "knobs": [
+        {
+          "id": "boost",
+          "label": "Boost",
+          "def": 0.5
+        }
+      ]
+    }
+  }
+}

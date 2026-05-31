@@ -1,0 +1,6 @@
+{
+  "brand": "ProCo",
+  "pedals": {
+    "rat": { "name": "RAT", "cat": "Gain/Drive", "inst": "guitar", "color": "#181818", "knobs": [{"id":"volume","label":"Volume","def":0.5},{"id":"filter","label":"Filter","def":0.5},{"id":"dist","label":"Distortion","def":0.5}] }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "brand": "Darkglass",
+  "pedals": {
+    "b3k": { "name": "B3K", "cat": "Bass", "inst": "bass", "color": "#1e1e1e", "knobs": [{"id":"level","label":"Level","def":0.5},{"id":"blend","label":"Blend","def":0.5},{"id":"drive","label":"Drive","def":0.4}] },
+    "b7k": { "name": "B7K Ultra", "cat": "Bass", "inst": "bass", "color": "#141414", "knobs": [{"id":"level","label":"Level","def":0.5},{"id":"blend","label":"Blend","def":0.5},{"id":"drive","label":"Drive","def":0.4},{"id":"bass","label":"Bass","def":0.5},{"id":"mid","label":"Mid","def":0.5},{"id":"treble","label":"Treble","def":0.5}] }
+  }
+}

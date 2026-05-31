@@ -1,0 +1,129 @@
+{
+  "brand": "Cabinets",
+  "cabinets": {
+    "marshall_1960a": {
+      "name": "1960A",
+      "brand": "Marshall",
+      "color": "#0a0a0a",
+      "speakers": "4×12\"",
+      "watts": 300,
+      "ohms": "16Ω"
+    },
+    "marshall_1960b": {
+      "name": "1960B",
+      "brand": "Marshall",
+      "color": "#0a0a0a",
+      "speakers": "4×12\"",
+      "watts": 300,
+      "ohms": "16Ω"
+    },
+    "marshall_1912": {
+      "name": "1912",
+      "brand": "Marshall",
+      "color": "#0a0a0a",
+      "speakers": "1×12\"",
+      "watts": 65,
+      "ohms": "8Ω"
+    },
+    "mesa_rectifier_4x12": {
+      "name": "Rectifier 4×12",
+      "brand": "Mesa Boogie",
+      "color": "#0f0b08",
+      "speakers": "4×12\"",
+      "watts": 280,
+      "ohms": "8Ω"
+    },
+    "mesa_rectifier_2x12": {
+      "name": "Rectifier 2×12",
+      "brand": "Mesa Boogie",
+      "color": "#0f0b08",
+      "speakers": "2×12\"",
+      "watts": 120,
+      "ohms": "8Ω"
+    },
+    "mesa_1x12_thiele": {
+      "name": "1×12 Thiele",
+      "brand": "Mesa Boogie",
+      "color": "#0f0b08",
+      "speakers": "1×12\"",
+      "watts": 90,
+      "ohms": "8Ω"
+    },
+    "orange_ppc412": {
+      "name": "PPC412",
+      "brand": "Orange",
+      "color": "#5a1e00",
+      "speakers": "4×12\"",
+      "watts": 240,
+      "ohms": "16Ω"
+    },
+    "orange_ppc212": {
+      "name": "PPC212",
+      "brand": "Orange",
+      "color": "#5a1e00",
+      "speakers": "2×12\"",
+      "watts": 120,
+      "ohms": "16Ω"
+    },
+    "orange_ppc112": {
+      "name": "PPC112",
+      "brand": "Orange",
+      "color": "#5a1e00",
+      "speakers": "1×12\"",
+      "watts": 60,
+      "ohms": "8Ω"
+    },
+    "bogner_uberkab_412": {
+      "name": "Uberkab 412",
+      "brand": "Bogner",
+      "color": "#120a00",
+      "speakers": "4×12\"",
+      "watts": 280,
+      "ohms": "8Ω"
+    },
+    "engl_e412pro": {
+      "name": "Pro E412",
+      "brand": "ENGL",
+      "color": "#0a0a0a",
+      "speakers": "4×12\"",
+      "watts": 280,
+      "ohms": "8Ω",
+      "layout": {
+        "image": "engl-412.png",
+        "controls": {}
+      }
+    },
+    "fender_212r": {
+      "name": "212R",
+      "brand": "Fender",
+      "color": "#0a141e",
+      "speakers": "2×12\"",
+      "watts": 100,
+      "ohms": "8Ω"
+    },
+    "zilla_fatboy_212": {
+      "name": "Fatboy 212",
+      "brand": "Zilla",
+      "color": "#1a0a0a",
+      "speakers": "2×12\"",
+      "watts": 160,
+      "ohms": "8Ω"
+    },
+    "friedman_4x12": {
+      "name": "4×12 Vertical",
+      "brand": "Friedman",
+      "color": "#080808",
+      "speakers": "4×12\"",
+      "watts": 280,
+      "ohms": "8Ω"
+    },
+    "blackstar_htv412a": {
+      "name": "HTV-412A",
+      "brand": "Blackstar",
+      "color": "#0a0a0f",
+      "speakers": "4×12\"",
+      "watts": 320,
+      "ohms": "16Ω"
+    }
+  }
+}

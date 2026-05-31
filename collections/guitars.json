@@ -1,0 +1,295 @@
+{
+  "brand": "Guitars",
+  "guitars": {
+    "fender_strat_sss": {
+      "name": "Stratocaster SSS",
+      "brand": "Fender",
+      "color": "#0e2035",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Bri+Mid",
+            "Middle",
+            "Mid+Neck",
+            "Neck"
+          ],
+          "def": "Middle"
+        }
+      ],
+      "layout": {
+        "image": "fender-stratocaster-sss.png"
+      }
+    },
+    "fender_strat_sss_7way": {
+      "name": "Stratocaster SSS 7-way",
+      "brand": "Fender",
+      "color": "#0e2035",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Bri+Mid",
+            "Middle",
+            "Mid+Neck",
+            "Neck",
+            "Bri+Neck",
+            "All 3"
+          ],
+          "def": "Middle"
+        }
+      ],
+      "layout": {
+        "image": "fender-stratocaster-7-way.png"
+      }
+    },
+    "fender_strat_hss": {
+      "name": "Stratocaster HSS",
+      "brand": "Fender",
+      "color": "#0e2035",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge HB",
+            "Bri+Mid",
+            "Middle",
+            "Mid+Neck",
+            "Neck"
+          ],
+          "def": "Bridge HB"
+        }
+      ]
+    },
+    "fender_tele_std": {
+      "name": "Telecaster",
+      "brand": "Fender",
+      "color": "#5c3800",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Bridge+Neck",
+            "Neck"
+          ],
+          "def": "Bridge"
+        }
+      ]
+    },
+    "fender_jazzmaster": {
+      "name": "Jazzmaster",
+      "brand": "Fender",
+      "color": "#1a3530",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Both",
+            "Neck"
+          ],
+          "def": "Both"
+        }
+      ]
+    },
+    "fender_jaguar": {
+      "name": "Jaguar",
+      "brand": "Fender",
+      "color": "#1a1a3a",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Both",
+            "Neck"
+          ],
+          "def": "Bridge"
+        }
+      ]
+    },
+    "gibson_lp_standard": {
+      "name": "Les Paul Standard",
+      "brand": "Gibson",
+      "color": "#250808",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Both",
+            "Neck"
+          ],
+          "def": "Bridge"
+        }
+      ]
+    },
+    "gibson_sg_standard": {
+      "name": "SG Standard",
+      "brand": "Gibson",
+      "color": "#320000",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Both",
+            "Neck"
+          ],
+          "def": "Bridge"
+        }
+      ]
+    },
+    "gibson_es335": {
+      "name": "ES-335",
+      "brand": "Gibson",
+      "color": "#1a0a00",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Both",
+            "Neck"
+          ],
+          "def": "Both"
+        }
+      ]
+    },
+    "gibson_explorer": {
+      "name": "Explorer",
+      "brand": "Gibson",
+      "color": "#100808",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Both",
+            "Neck"
+          ],
+          "def": "Bridge"
+        }
+      ]
+    },
+    "prs_custom24": {
+      "name": "Custom 24",
+      "brand": "PRS",
+      "color": "#162510",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Split",
+            "Both",
+            "Split",
+            "Neck"
+          ],
+          "def": "Bridge"
+        }
+      ]
+    },
+    "prs_silver_sky": {
+      "name": "Silver Sky",
+      "brand": "PRS",
+      "color": "#101e35",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Bri+Mid",
+            "Middle",
+            "Mid+Neck",
+            "Neck"
+          ],
+          "def": "Middle"
+        }
+      ]
+    },
+    "prs_se_custom": {
+      "name": "SE Custom 24",
+      "brand": "PRS",
+      "color": "#1e1010",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Split",
+            "Both",
+            "Split",
+            "Neck"
+          ],
+          "def": "Bridge"
+        }
+      ]
+    },
+    "ernie_ball_axis": {
+      "name": "Axis Super Sport",
+      "brand": "Ernie Ball Music Man",
+      "color": "#101a25",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Both",
+            "Neck"
+          ],
+          "def": "Bridge"
+        }
+      ]
+    },
+    "gretsch_6120": {
+      "name": "6120 Nashville",
+      "brand": "Gretsch",
+      "color": "#3a1800",
+      "switches": [
+        {
+          "id": "pickup",
+          "label": "Pickup",
+          "type": "cycle",
+          "opts": [
+            "Bridge",
+            "Both",
+            "Neck"
+          ],
+          "def": "Bridge"
+        }
+      ]
+    }
+  }
+}

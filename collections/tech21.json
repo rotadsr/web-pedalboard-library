@@ -1,0 +1,6 @@
+{
+  "brand": "Tech 21",
+  "pedals": {
+    "sansamp": { "name": "SansAmp Bass Driver DI", "cat": "Bass", "inst": "bass", "color": "#1e1e1e", "knobs": [{"id":"level","label":"Level","def":0.5},{"id":"blend","label":"Blend","def":0.6},{"id":"bass","label":"Bass","def":0.5},{"id":"treble","label":"Treble","def":0.5},{"id":"drive","label":"Drive","def":0.4}] }
+  }
+}

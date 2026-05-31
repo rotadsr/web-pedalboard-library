@@ -1,0 +1,122 @@
+{
+  "brand": "Engl",
+  "amps": {
+    "fireball": {
+      "name": "Fireball 25",
+      "color": "#0f0f0f",
+      "knobs": [
+        {
+          "id": "gain",
+          "label": "Gain",
+          "def": 0.5
+        },
+        {
+          "id": "vol",
+          "label": "Volume",
+          "def": 0.5
+        },
+        {
+          "id": "bass",
+          "label": "Bass",
+          "def": 0.5
+        },
+        {
+          "id": "mid",
+          "label": "Mid",
+          "def": 0.5
+        },
+        {
+          "id": "treble",
+          "label": "Treble",
+          "def": 0.6
+        },
+        {
+          "id": "presence",
+          "label": "Presence",
+          "def": 0.5
+        },
+        {
+          "id": "master",
+          "label": "Master",
+          "def": 0.5
+        }
+      ],
+      "layout": {
+        "image": "engl-fireball-25.png",
+        "controls": {
+          "in": {
+            "x": 0.106,
+            "y": 0.757,
+            "type": "port-in",
+            "label": "Input"
+          },
+          "clean_gain": {
+            "x": 0.178,
+            "y": 0.763,
+            "label": "Clean Gain"
+          },
+          "lead_gain": {
+            "x": 0.251,
+            "y": 0.766,
+            "label": "Lead Gain"
+          },
+          "bass": {
+            "x": 0.331,
+            "y": 0.76,
+            "label": "Bass"
+          },
+          "middle": {
+            "x": 0.406,
+            "y": 0.763,
+            "label": "Middle"
+          },
+          "treble": {
+            "x": 0.483,
+            "y": 0.76,
+            "label": "Treble"
+          },
+          "lead_volume": {
+            "x": 0.561,
+            "y": 0.763,
+            "label": "Lead Volume"
+          },
+          "mid_boost": {
+            "x": 0.614,
+            "y": 0.783,
+            "type": "toggle",
+            "label": "Mid Boost",
+            "opts": [
+              "On",
+              "Off"
+            ],
+            "orientation": "v"
+          },
+          "clean_lead": {
+            "x": 0.643,
+            "y": 0.786,
+            "type": "toggle",
+            "label": "Clean Lead",
+            "opts": [
+              "On",
+              "Off"
+            ],
+            "orientation": "v"
+          },
+          "master": {
+            "x": 0.699,
+            "y": 0.766,
+            "label": "Master"
+          },
+          "presence": {
+            "x": 0.775,
+            "y": 0.769,
+            "label": "Presence"
+          }
+        },
+        "widthMm": 420,
+        "heightMm": 200,
+        "removeWhiteBg": true
+      }
+    }
+  }
+}
