@@ -2,6 +2,8 @@
 
 A browser-based pedalboard builder for visualising and documenting guitar signal chains. Add pedals, amps, guitars, and cabinets to a canvas, connect them with cables, adjust knobs and switches, and save named presets.
 
+Try it live: https://rotadsr.github.io/web-pedalboard-library/
+
 ## Features
 
 - **Visual canvas** — drag nodes freely, connect ports with colour-coded cables, zoom and pan
