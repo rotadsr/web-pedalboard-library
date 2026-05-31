@@ -24,7 +24,7 @@
         }
       ],
       "layout": {
-        "image": "boss-bd-2.jpg",
+        "image": "boss-bd-2.png",
         "controls": {
           "gain": {
             "x": 0.725,
@@ -156,7 +156,7 @@
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
-        "image": "boss-mt-2.jpg",
+        "image": "boss-mt-2.png",
         "removeWhiteBg": true
       }
     },
@@ -191,7 +191,7 @@
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
-        "image": "boss-cs-3.jpg",
+        "image": "boss-cs-3.png",
         "removeWhiteBg": true
       }
     },
@@ -289,7 +289,7 @@
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
-        "image": "boss-bf-3.jpg",
+        "image": "boss-bf-3.png",
         "removeWhiteBg": true
       }
     },
@@ -319,7 +319,7 @@
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
-        "image": "boss-tr-2.jpg",
+        "image": "boss-tr-2.png",
         "removeWhiteBg": true
       }
     },
@@ -349,7 +349,7 @@
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
-        "image": "boss-dd-3.jpg",
+        "image": "boss-dd-3.png",
         "removeWhiteBg": true
       }
     },
@@ -392,7 +392,7 @@
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
-        "image": "boss-tu-3.jpg",
+        "image": "boss-tu-3.png",
         "removeWhiteBg": true
       }
     },
@@ -433,7 +433,7 @@
       "knobs": [],
       "layout": {
         "controls": {},
-        "image": "boss-es-5.jpg",
+        "image": "boss-es-5.png",
         "removeWhiteBg": true
       }
     },
@@ -445,7 +445,7 @@
       "knobs": [],
       "layout": {
         "controls": {},
-        "image": "boss-es-8.jpg",
+        "image": "boss-es-8.png",
         "removeWhiteBg": true
       }
     },
@@ -465,7 +465,7 @@
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
-        "image": "boss-rc-3.jpg",
+        "image": "boss-rc-3.png",
         "removeWhiteBg": true
       }
     },
@@ -624,7 +624,7 @@
         }
       ],
       "layout": {
-        "image": "boss-dm-2.jpg",
+        "image": "boss-dm-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -741,7 +741,7 @@
         }
       ],
       "layout": {
-        "image": "boss-sd-1.jpg",
+        "image": "boss-sd-1.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1144,7 +1144,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ac-3.jpg",
+        "image": "boss-ac-3.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1191,7 +1191,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ad-2.jpg",
+        "image": "boss-ad-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1240,7 +1240,7 @@
         }
       ],
       "layout": {
-        "image": "boss-aw-3.jpg",
+        "image": "boss-aw-3.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1280,7 +1280,7 @@
         }
       ],
       "layout": {
-        "image": "boss-bb-1x.jpg",
+        "image": "boss-bb-1x.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1320,7 +1320,7 @@
         }
       ],
       "layout": {
-        "image": "boss-bc-1x.jpg",
+        "image": "boss-bc-1x.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1360,7 +1360,7 @@
         }
       ],
       "layout": {
-        "image": "boss-bp-1w.jpg",
+        "image": "boss-bp-1w.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1397,7 +1397,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ce-2w.jpg",
+        "image": "boss-ce-2w.png",
         "controls": {
           "rate": {
             "x": 0.379,
@@ -1480,7 +1480,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ce-5.jpg",
+        "image": "boss-ce-5.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1527,7 +1527,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ceb-3.jpg",
+        "image": "boss-ceb-3.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1562,7 +1562,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ch-1.jpg",
+        "image": "boss-ch-1.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1602,7 +1602,7 @@
         }
       ],
       "layout": {
-        "image": "boss-cp-1x.jpg",
+        "image": "boss-cp-1x.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1641,7 +1641,7 @@
         }
       ],
       "layout": {
-        "image": "boss-dc-2w.jpg",
+        "image": "boss-dc-2w.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1691,7 +1691,7 @@
         }
       ],
       "layout": {
-        "image": "boss-dd-8.jpg",
+        "image": "boss-dd-8.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1721,7 +1721,7 @@
         }
       ],
       "layout": {
-        "image": "boss-dm-101.jpg",
+        "image": "boss-dm-101.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1763,7 +1763,7 @@
         }
       ],
       "layout": {
-        "image": "boss-dm-2w.jpg",
+        "image": "boss-dm-2w.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1805,7 +1805,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ds-1w.jpg",
+        "image": "boss-ds-1w.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1835,7 +1835,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ds-1x.jpg",
+        "image": "boss-ds-1x.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1878,7 +1878,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ds-2.jpg",
+        "image": "boss-ds-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1920,7 +1920,7 @@
         }
       ],
       "layout": {
-        "image": "boss-fz-1w.jpg",
+        "image": "boss-fz-1w.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -1963,7 +1963,7 @@
         }
       ],
       "layout": {
-        "image": "boss-fz-5.jpg",
+        "image": "boss-fz-5.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2018,7 +2018,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ge-7.jpg",
+        "image": "boss-ge-7.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2073,7 +2073,7 @@
         }
       ],
       "layout": {
-        "image": "boss-geb-7.jpg",
+        "image": "boss-geb-7.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2120,7 +2120,7 @@
         }
       ],
       "layout": {
-        "image": "boss-hm-2w.jpg",
+        "image": "boss-hm-2w.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2186,7 +2186,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ir-2.jpg",
+        "image": "boss-ir-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2232,7 +2232,7 @@
         }
       ],
       "layout": {
-        "image": "boss-jb-2.jpg",
+        "image": "boss-jb-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2272,7 +2272,7 @@
         }
       ],
       "layout": {
-        "image": "boss-lmb-3.jpg",
+        "image": "boss-lmb-3.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2307,7 +2307,7 @@
         }
       ],
       "layout": {
-        "image": "boss-md-2.jpg",
+        "image": "boss-md-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2342,7 +2342,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ml-2.jpg",
+        "image": "boss-ml-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2385,7 +2385,7 @@
         }
       ],
       "layout": {
-        "image": "boss-mo-2.jpg",
+        "image": "boss-mo-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2437,7 +2437,7 @@
         }
       ],
       "layout": {
-        "image": "boss-mt-2w.jpg",
+        "image": "boss-mt-2w.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2462,7 +2462,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ns-1x.jpg",
+        "image": "boss-ns-1x.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2499,7 +2499,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ns-2.jpg",
+        "image": "boss-ns-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2551,7 +2551,7 @@
         }
       ],
       "layout": {
-        "image": "boss-oc-5.jpg",
+        "image": "boss-oc-5.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2581,7 +2581,7 @@
         }
       ],
       "layout": {
-        "image": "boss-od-1x.jpg",
+        "image": "boss-od-1x.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2611,7 +2611,7 @@
         }
       ],
       "layout": {
-        "image": "boss-od-3.jpg",
+        "image": "boss-od-3.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2651,7 +2651,7 @@
         }
       ],
       "layout": {
-        "image": "boss-odb-3.jpg",
+        "image": "boss-odb-3.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2686,7 +2686,7 @@
         }
       ],
       "layout": {
-        "image": "boss-os-2.jpg",
+        "image": "boss-os-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2741,7 +2741,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ph-3.jpg",
+        "image": "boss-ph-3.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2787,7 +2787,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ps-6.jpg",
+        "image": "boss-ps-6.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2822,7 +2822,7 @@
         }
       ],
       "layout": {
-        "image": "boss-px-1.jpg",
+        "image": "boss-px-1.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2869,7 +2869,7 @@
         }
       ],
       "layout": {
-        "image": "boss-re-2.jpg",
+        "image": "boss-re-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2937,7 +2937,7 @@
         }
       ],
       "layout": {
-        "image": "boss-rt-2.jpg",
+        "image": "boss-rt-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -2981,7 +2981,7 @@
         }
       ],
       "layout": {
-        "image": "boss-sde-3.jpg",
+        "image": "boss-sde-3.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -3032,7 +3032,7 @@
         }
       ],
       "layout": {
-        "image": "boss-sl-2.jpg",
+        "image": "boss-sl-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -3077,7 +3077,7 @@
         }
       ],
       "layout": {
-        "image": "boss-st-2.jpg",
+        "image": "boss-st-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -3132,7 +3132,7 @@
         }
       ],
       "layout": {
-        "image": "boss-sy-1.jpg",
+        "image": "boss-sy-1.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -3179,7 +3179,7 @@
         }
       ],
       "layout": {
-        "image": "boss-te-2.jpg",
+        "image": "boss-te-2.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -3193,7 +3193,7 @@
       "color": "#101010",
       "knobs": [],
       "layout": {
-        "image": "boss-tu-3s.jpg",
+        "image": "boss-tu-3s.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -3207,7 +3207,7 @@
       "color": "#141414",
       "knobs": [],
       "layout": {
-        "image": "boss-tu-3w.jpg",
+        "image": "boss-tu-3w.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -3260,7 +3260,7 @@
         }
       ],
       "layout": {
-        "image": "boss-vb-2w.jpg",
+        "image": "boss-vb-2w.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -3303,7 +3303,7 @@
         }
       ],
       "layout": {
-        "image": "boss-vo-1.jpg",
+        "image": "boss-vo-1.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -3323,7 +3323,7 @@
         }
       ],
       "layout": {
-        "image": "boss-rc-1.jpg",
+        "image": "boss-rc-1.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -3361,7 +3361,7 @@
         }
       ],
       "layout": {
-        "image": "boss-rc-5.jpg",
+        "image": "boss-rc-5.png",
         "controls": {},
         "widthMm": 73,
         "heightMm": 129,
@@ -3420,7 +3420,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ad-10.jpg",
+        "image": "boss-ad-10.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -3488,7 +3488,7 @@
         }
       ],
       "layout": {
-        "image": "boss-eq-200.jpg",
+        "image": "boss-eq-200.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -3540,7 +3540,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ir-200.jpg",
+        "image": "boss-ir-200.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -3593,7 +3593,7 @@
         }
       ],
       "layout": {
-        "image": "boss-dd-200.jpg",
+        "image": "boss-dd-200.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -3644,7 +3644,7 @@
         }
       ],
       "layout": {
-        "image": "boss-dd-500.jpg",
+        "image": "boss-dd-500.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -3697,7 +3697,7 @@
         }
       ],
       "layout": {
-        "image": "boss-md-200.jpg",
+        "image": "boss-md-200.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -3762,7 +3762,7 @@
         }
       ],
       "layout": {
-        "image": "boss-md-500.jpg",
+        "image": "boss-md-500.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -3795,7 +3795,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ms-3.jpg",
+        "image": "boss-ms-3.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -3818,7 +3818,7 @@
         }
       ],
       "layout": {
-        "image": "boss-rc-500.jpg",
+        "image": "boss-rc-500.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -3836,7 +3836,7 @@
         }
       ],
       "layout": {
-        "image": "boss-rc-600.jpg",
+        "image": "boss-rc-600.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -3864,7 +3864,7 @@
         }
       ],
       "layout": {
-        "image": "boss-rc-10r.jpg",
+        "image": "boss-rc-10r.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -3929,7 +3929,7 @@
         }
       ],
       "layout": {
-        "image": "boss-re-202.jpg",
+        "image": "boss-re-202.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -3982,7 +3982,7 @@
         }
       ],
       "layout": {
-        "image": "boss-rv-200.jpg",
+        "image": "boss-rv-200.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -4045,7 +4045,7 @@
         }
       ],
       "layout": {
-        "image": "boss-rv-500.jpg",
+        "image": "boss-rv-500.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -4083,7 +4083,7 @@
         }
       ],
       "layout": {
-        "image": "boss-sde-3000d.jpg",
+        "image": "boss-sde-3000d.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -4121,7 +4121,7 @@
         }
       ],
       "layout": {
-        "image": "boss-sde-3000evh.jpg",
+        "image": "boss-sde-3000evh.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -4174,7 +4174,7 @@
         }
       ],
       "layout": {
-        "image": "boss-sy-200.jpg",
+        "image": "boss-sy-200.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -4212,7 +4212,7 @@
         }
       ],
       "layout": {
-        "image": "boss-sy-300.jpg",
+        "image": "boss-sy-300.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -4250,7 +4250,7 @@
         }
       ],
       "layout": {
-        "image": "boss-ve-8.jpg",
+        "image": "boss-ve-8.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -4262,7 +4262,7 @@
       "color": "#1a1a1a",
       "knobs": [],
       "layout": {
-        "image": "boss-xs-1.jpg",
+        "image": "boss-xs-1.png",
         "controls": {},
         "removeWhiteBg": true
       }
@@ -4274,7 +4274,7 @@
       "color": "#141414",
       "knobs": [],
       "layout": {
-        "image": "boss-xs-100.jpg",
+        "image": "boss-xs-100.png",
         "controls": {},
         "removeWhiteBg": true
       }
