@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="layer"
+   x="0px"
+   y="0px"
+   viewBox="0 0 600 111.6"
+   xml:space="preserve"
+   sodipodi:docname="eventide.svg"
+   width="600"
+   height="111.6"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs8" /><sodipodi:namedview
+   id="namedview8"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="1.6329272"
+   inkscape:cx="558.5062"
+   inkscape:cy="-97.983545"
+   inkscape:window-width="1579"
+   inkscape:window-height="903"
+   inkscape:window-x="0"
+   inkscape:window-y="33"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="layer" />
+<style
+   type="text/css"
+   id="style1">
+	.st0{fill:#2D2F39;}
+</style>
+<polygon
+   class="st0"
+   points="52.7,347.5 52.7,332.5 75,332.5 75,305.3 52.7,305.3 52.7,290.5 84.8,290.5 79.6,265.8 20.5,265.8 20.5,374.6 81.4,374.6 89.4,347.5 "
+   id="polygon1"
+   transform="translate(-20.5,-265.7)" />
+<polygon
+   class="st0"
+   points="170.4,295.5 140.5,295.5 131.2,342.7 121.3,295.5 92.3,295.5 110.2,374.7 151.2,374.7 "
+   id="polygon2"
+   transform="translate(-20.5,-265.7)" />
+<path
+   class="st0"
+   d="m 179.3,69.3 c -0.7,-1.4 -1.2,-2.3 -1.2,-5.9 0,-7.1 5.2,-14.2 12.8,-14.2 3.9,0 7.1,0.7 9.6,4.1 z m 48.1,5.6 c -5,4.3 -15.1,11.2 -28.1,11.8 -4.3,0.2 -8.9,-1.4 -10.3,-3.4 l 42.4,-32 c -6.8,-16 -21.2,-26.4 -40.1,-26.4 -23.5,0 -42.7,16.7 -42.7,45 0,22.8 18.2,41.7 43.8,41.7 15.5,0 23.5,-1.2 34.9,-9.4 V 75 h 0.1 z"
+   id="path2" />
+<path
+   class="st0"
+   d="M 237.5,29.8 V 109 h 29.7 V 59 c 0,-4.8 4.3,-7.7 8.7,-7.7 4.3,0 8.4,2.8 8.4,7.5 v 50 h 27.2 V 51.3 c 0,-16 -8.4,-25.1 -24.2,-25.1 -7.7,0 -13.9,0.5 -20.1,8.9 V 33 29.6 h -29.7 z"
+   id="path3" />
+<path
+   class="st0"
+   d="M 363.6,81.8 H 359 c -3.7,0 -5.5,-1.8 -5.5,-5.5 V 49.2 h 10.1 V 29.8 H 353.5 V 5.9 l -29.7,13.9 v 10 h -4.6 v 19.4 h 4.6 v 37.4 c 0,18.5 8.2,22.3 26.4,22.3 h 13.5 V 81.8 Z"
+   id="path4" />
+<path
+   class="st0"
+   d="M 400.8,108.9 V 29.8 H 373.5 V 109 h 27.2 v -0.1 z m 0,-89.1 V 0 h -27.3 v 19.8 z"
+   id="path5" />
+<path
+   class="st0"
+   d="m 467.2,0.1 v 29.7 c -4.5,-3.6 -12.5,-5 -18.9,-5 -24.9,0 -40.2,19.8 -40.2,43.8 0,26.9 18.2,42.7 37.6,42.7 9.3,0 16.6,-2.5 21.5,-10.1 v 7.7 h 27.6 V 0.1 Z m -26,68 c 0,-6.6 4.5,-13 11.6,-13 6.9,0 11.4,6.4 11.4,13 0,6.6 -4.5,13 -11.4,13 -7.3,0 -11.6,-6.4 -11.6,-13 z"
+   id="path6" />
+<path
+   class="st0"
+   d="m 532.9,69.3 c -0.5,-1.4 -1.2,-2.3 -1.2,-5.9 0,-7.1 5.2,-14.2 12.8,-14.2 3.9,0 7.1,0.7 9.6,4.1 z m 47.9,5.6 c -5,4.3 -15.1,11.2 -28.1,11.8 -4.3,0.2 -8.9,-1.4 -10.3,-3.4 l 42.4,-32 c -6.8,-16 -21.2,-26.4 -40.1,-26.4 -23.5,0 -42.7,16.7 -42.7,45 0,22.8 18.2,41.7 43.8,41.7 15.5,0 23.5,-1.2 34.9,-9.4 V 75 h 0.1 z"
+   id="path7" />
+
+</svg>
