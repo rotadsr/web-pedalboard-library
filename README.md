@@ -83,7 +83,7 @@ Each collection file follows this structure:
         { "id": "gain",  "label": "Gain",  "def": 0.5 }
       ],
       "layout": {
-        "image": "boss-bd-2.jpg",
+        "image": "boss-bd-2.png",
         "removeWhiteBg": true,
         "widthMm": 73,
         "heightMm": 129,
